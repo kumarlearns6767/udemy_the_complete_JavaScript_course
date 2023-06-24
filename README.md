@@ -1,2 +1,3 @@
-# udemy_the_complete_JavaScript_course
- The Complete JavaScript Course 2023: From Zero to Expert! frok=m udemy. Learning javascriot using this course.
+# thapatechnicalJavaScript_course
+ The Complete JavaScript Course 2021: From Zero to Expert! from thapa technical youtube channel. Learning javascriot using this course in 2023 and will update myself
+with latest ES features and rules.
