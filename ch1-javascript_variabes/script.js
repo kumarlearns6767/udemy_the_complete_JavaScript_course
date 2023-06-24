@@ -14,7 +14,7 @@
 // 5) Reserved Keyword in Javascript Cannot be used in variable declarations.
 
 // 6) Var is such a variable declarer who is depratiated.
-var namee = "Lalit";
+var namee = "Lal";
 // syntax - var/let/const (which is variable declaration type)
 // then variavle name which is name = "variale value which is Lalit";
 
