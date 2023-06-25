@@ -102,3 +102,4 @@ const muName = "Lila Raju";
 console.log(isNaN(myNumber)); // Printing the variable result with isNaN() method to check the result.
 console.log(isNaN(muName));
 // Note - 1:09:52 hour is a dount I could not understand in thapa technical.
+console.log("str".isNaN() === NaN);
