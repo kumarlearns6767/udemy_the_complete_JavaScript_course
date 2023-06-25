@@ -60,15 +60,15 @@ console.log(typeof chair);
 // operator returns undefined. It is because there is no value assigned to the variable.
 // And the condition matches whicb is true.
 
-// Undefined Data Types -
-let houseowner;
-console.log(houseowner);
-console.log(typeof houseowner);
+// Number Data Types -
+const student_class = 12;
+console.log(student_class);
+console.log(typeof student_class);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
 
-// Undefined Data Types -
-let houseowner;
+// String Data Types -
+const founder = binod;
 console.log(houseowner);
 console.log(typeof houseowner);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
