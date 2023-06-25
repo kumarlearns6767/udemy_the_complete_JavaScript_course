@@ -81,9 +81,9 @@ console.log(typeof biginteger);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
 
-// Undefined Data Types -
-let houseowner;
-console.log(houseowner);
-console.log(typeof houseowner);
+// Symbol Data Types -
+let dimbol = "dimboll";
+console.log(dimbol);
+console.log(typeof dimboll);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
