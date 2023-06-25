@@ -11,14 +11,6 @@
 
 const age = 32;
 
-// There are 6 Data Types in JavaScript which are primitive types-
-// *undefined : typeof instance === "undefined"
-// *Boolean : typeof instance === "boolean"
-// *Number : typeof instance === "number"
-// *String : typeof instance === "string"
-// *BigInt : typeof instance === "bigint"
-// *Symbol : typeof instance === "Symbol"
-
 // The entire course documented is from Thapa technical Javascript Video and it either follows ES20 or ES21.
 
 if (typeof age === "number") {
@@ -27,22 +19,13 @@ if (typeof age === "number") {
 	console.log(" Your Data Type is not number!");
 }
 
-// *** Important ***
-
-// When you add any number with any string then it will concatenate and display but in case of
-// substracted, it will do the mathematical operation. Example -
-
-console.log(9 + "6"); // The output is concatinated string
-console.log(9 + "Car"); // The output is concatinated string
-// But when we do substraction with a number inside "" which makes it string, it works and does the mathematical operation and it is a bug is Javascript-
-console.log(200 - "12"); // The output is mathematical operation which is 118.
-console.log(200 - "raju"); // The output is NaN which means not a number.
-// This is because (maybe) when javascript tried to substract, it fould it not a number and returned NaN.
-
-// Whe you add " " (which is a black single space) with any number and try to print then
-// That blank space (be it single or moe than one) will be printed along with the number in a concatinated Form.
-// Example -
-console.log("" + 12);
+// There are 6 Data Types in JavaScript which are primitive types-
+// *undefined : typeof instance === "undefined"
+// *Boolean : typeof instance === "boolean"
+// *Number : typeof instance === "number"
+// *String : typeof instance === "string"
+// *BigInt : typeof instance === "bigint"
+// *Symbol : typeof instance === "Symbol"
 
 // Let's Take a look at the datatypes one by one -
 // Undefined Data Types -
@@ -68,9 +51,9 @@ console.log(typeof student_class);
 // operator does the same thing. It is because there is no value assigned to the variable.
 
 // String Data Types -
-const founder = binod;
-console.log(binod);
-console.log(typeof binod);
+const founder = "binod";
+console.log(founder);
+console.log(typeof founder);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
 
@@ -87,3 +70,20 @@ console.log(dimbol);
 console.log(typeof dimboll);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
+
+// *** Important ***
+
+// When you add any number with any string then it will concatenate and display but in case of
+// substracted, it will do the mathematical operation. Example -
+
+console.log(9 + "6"); // The output is concatinated string
+console.log(9 + "Car"); // The output is concatinated string
+// But when we do substraction with a number inside "" which makes it string, it works and does the mathematical operation and it is a bug is Javascript-
+console.log(200 - "12"); // The output is mathematical operation which is 118.
+console.log(200 - "raju"); // The output is NaN which means not a number.
+// This is because (maybe) when javascript tried to substract, it fould it not a number and returned NaN.
+
+// Whe you add " " (which is a black single space) with any number and try to print then
+// That blank space (be it single or moe than one) will be printed along with the number in a concatinated Form.
+// Example -
+console.log("" + 12);
