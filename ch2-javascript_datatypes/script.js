@@ -74,10 +74,10 @@ console.log(typeof binod);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
 
-// Undefined Data Types -
-let houseowner;
-console.log(houseowner);
-console.log(typeof houseowner);
+// BigInt Data Types -
+let biginteger = 12121212121212121212121212121212121212;
+console.log(biginteger);
+console.log(typeof biginteger);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
 
