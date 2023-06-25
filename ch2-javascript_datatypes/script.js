@@ -68,9 +68,9 @@ console.log(typeof student_class);
 // operator does the same thing. It is because there is no value assigned to the variable.
 
 // String Data Types -
-const founder = binod;
-console.log(binod);
-console.log(typeof binod);
+const founder = "binod";
+console.log(founder);
+console.log(typeof founder);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
 
