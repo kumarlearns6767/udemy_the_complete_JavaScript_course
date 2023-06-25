@@ -34,7 +34,56 @@ if (typeof age === "number") {
 
 console.log(9 + "6"); // The output is concatinated string
 console.log(9 + "Car"); // The output is concatinated string
-// But when we do substraction with a number inside "" which makes it string, it works and does the mathematical operation -
+// But when we do substraction with a number inside "" which makes it string, it works and does the mathematical operation and it is a bug is Javascript-
 console.log(200 - "12"); // The output is mathematical operation which is 118.
 console.log(200 - "raju"); // The output is NaN which means not a number.
 // This is because (maybe) when javascript tried to substract, it fould it not a number and returned NaN.
+
+// Whe you add " " (which is a black single space) with any number and try to print then
+// That blank space (be it single or moe than one) will be printed along with the number in a concatinated Form.
+// Example -
+console.log("" + 12);
+
+// Let's Take a look at the datatypes one by one -
+// Undefined Data Types -
+let houseowner;
+console.log(houseowner);
+console.log(typeof houseowner);
+// We can clearly see that upon printing the variable, it returns undefined and the typeof
+// operator does the same thing. It is because there is no value assigned to the variable.
+
+// Boolean Data Types -
+const chair = true;
+console.log(chair);
+console.log(typeof chair);
+// We can clearly see that upon printing the variable, it returns true and the typeof
+// operator returns undefined. It is because there is no value assigned to the variable.
+// And the condition matches whicb is true.
+
+// Number Data Types -
+const student_class = 12;
+console.log(student_class);
+console.log(typeof student_class);
+// We can clearly see that upon printing the variable, it returns undefined and the typeof
+// operator does the same thing. It is because there is no value assigned to the variable.
+
+// String Data Types -
+const founder = binod;
+console.log(binod);
+console.log(typeof binod);
+// We can clearly see that upon printing the variable, it returns undefined and the typeof
+// operator does the same thing. It is because there is no value assigned to the variable.
+
+// BigInt Data Types -
+let biginteger = 12121212121212121212121212121212121212;
+console.log(biginteger);
+console.log(typeof biginteger);
+// We can clearly see that upon printing the variable, it returns undefined and the typeof
+// operator does the same thing. It is because there is no value assigned to the variable.
+
+// Symbol Data Types -
+let dimbol = "dimboll";
+console.log(dimbol);
+console.log(typeof dimboll);
+// We can clearly see that upon printing the variable, it returns undefined and the typeof
+// operator does the same thing. It is because there is no value assigned to the variable.
