@@ -43,3 +43,47 @@ console.log(200 - "raju"); // The output is NaN which means not a number.
 // That blank space (be it single or moe than one) will be printed along with the number in a concatinated Form.
 // Example -
 console.log("" + 12);
+
+// Let's Take a look at the datatypes one by one -
+// Undefined Data Types -
+let houseowner;
+console.log(houseowner);
+console.log(typeof houseowner);
+// We can clearly see that upon printing the variable, it returns undefined and the typeof
+// operator does the same thing. It is because there is no value assigned to the variable.
+
+// Boolean Data Types -
+const chair = true;
+console.log(chair);
+console.log(typeof chair);
+// We can clearly see that upon printing the variable, it returns true and the typeof
+// operator returns undefined. It is because there is no value assigned to the variable.
+// And the condition matches whicb is true.
+
+// Undefined Data Types -
+let houseowner;
+console.log(houseowner);
+console.log(typeof houseowner);
+// We can clearly see that upon printing the variable, it returns undefined and the typeof
+// operator does the same thing. It is because there is no value assigned to the variable.
+
+// Undefined Data Types -
+let houseowner;
+console.log(houseowner);
+console.log(typeof houseowner);
+// We can clearly see that upon printing the variable, it returns undefined and the typeof
+// operator does the same thing. It is because there is no value assigned to the variable.
+
+// Undefined Data Types -
+let houseowner;
+console.log(houseowner);
+console.log(typeof houseowner);
+// We can clearly see that upon printing the variable, it returns undefined and the typeof
+// operator does the same thing. It is because there is no value assigned to the variable.
+
+// Undefined Data Types -
+let houseowner;
+console.log(houseowner);
+console.log(typeof houseowner);
+// We can clearly see that upon printing the variable, it returns undefined and the typeof
+// operator does the same thing. It is because there is no value assigned to the variable.
