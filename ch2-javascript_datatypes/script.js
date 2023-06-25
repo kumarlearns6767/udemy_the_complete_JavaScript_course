@@ -87,3 +87,18 @@ console.log(200 - "raju"); // The output is NaN which means not a number.
 // That blank space (be it single or moe than one) will be printed along with the number in a concatinated Form.
 // Example -
 console.log("" + 12);
+
+// Now, let's look at some interview Questions -
+
+// 1) What is the difference between null and undefined in javascript?
+//=> Answer -
+
+// 2) What is NaN in javascript?
+// => Answer - NaN is a property of the global object. In other words, it is a variable in global scope. In modern browsers, NaN is a non-configurable, non-writable property. Even when this is not the case, avoid overriding it.
+// the initial value of NaN is Not a Number.
+// Demostration -
+const myNumber = 6270897643;
+const muName = "Lila Raju";
+console.log(isNaN(myNumber)); // Printing the variable result with isNaN() method to check the result.
+console.log(isNaN(muName));
+// Note - 1:09:52 hour is a dount I could not understand in thapa technical.
