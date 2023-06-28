@@ -6,7 +6,7 @@
 // There are 6 types of Operators in JavaScript-
 
 // 1) Assignment Operator -
-// Assignment Operator is used to assifgn someting to a variable or some other things. Example -
+// Assignment Operator is used to assign a valur to the left operand based on the value of right operand. Example -
 const x = 5;
 const y = 5;
 
