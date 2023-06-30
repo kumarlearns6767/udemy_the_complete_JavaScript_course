@@ -28,4 +28,11 @@ console.log(3 + 3); // here '+' is addition operator.
 console.log(3 - 3); // here '-' is substraction operator.
 console.log(12 / 3); // here '/' is division operator.
 console.log(3 * 3); // here '*' is multiplication operator.
-console.log(3 % 3); // here '%' is remainder operator.
+console.log(3 % 3); // here '%' is remainder operator. '%' is also called "modular operator".
+
+// *** Important ***
+// Increment and Decrement operator -
+// Increment operator is used to increase the value of the operand either bt 1 or more. Example -
+let xz = 5;
+xz++;
+console.log(`Increased Valued of x = ${x}`);
