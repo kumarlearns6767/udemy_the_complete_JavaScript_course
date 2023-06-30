@@ -20,4 +20,19 @@ console.log(`Is x and y are equal? ${x === y}`);
 
 // We saw above that how the assignment operator '=', '==', and '===' works.
 
-// 2)
+// 2) Arithmetic Operator -
+// Arithmetic Operators takes numerical values (either literals or variables) as their operands and
+// returns a single numeric value.
+
+console.log(3 + 3); // here '+' is addition operator.
+console.log(3 - 3); // here '-' is substraction operator.
+console.log(12 / 3); // here '/' is division operator.
+console.log(3 * 3); // here '*' is multiplication operator.
+console.log(3 % 3); // here '%' is remainder operator. '%' is also called "modular operator".
+
+// *** Important ***
+// Increment and Decrement operator -
+// Increment operator is used to increase the value of the operand either bt 1 or more. Example -
+let xz = 5;
+xz++;
+console.log(`Increased Valued of x = ${x}`);
