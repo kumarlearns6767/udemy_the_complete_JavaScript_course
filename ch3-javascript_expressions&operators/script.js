@@ -26,6 +26,6 @@ console.log(`Is x and y are equal? ${x === y}`);
 
 console.log(3 + 3); // here '+' is addition operator.
 console.log(3 - 3); // here '-' is substraction operator.
-console.log(3 + 3); // here '+' is addition operator.
-console.log(3 + 3); // here '+' is addition operator.
+console.log(12 / 3); // here '/' is division operator.
+console.log(3 + 3); // here '*' is addition operator.
 console.log(3 + 3); // here '+' is addition operator.
