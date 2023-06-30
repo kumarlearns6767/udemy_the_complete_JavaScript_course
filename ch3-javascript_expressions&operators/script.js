@@ -20,4 +20,12 @@ console.log(`Is x and y are equal? ${x === y}`);
 
 // We saw above that how the assignment operator '=', '==', and '===' works.
 
-// 2)
+// 2) Arithmetic Operator -
+// Arithmetic Operators takes numerical values (either literals or variables) as their operands and
+// returns a single numeric value.
+
+console.log(3 + 3); // here '+' is addition operator.
+console.log(3 - 3); // here '-' is substraction operator.
+console.log(3 + 3); // here '+' is addition operator.
+console.log(3 + 3); // here '+' is addition operator.
+console.log(3 + 3); // here '+' is addition operator.
