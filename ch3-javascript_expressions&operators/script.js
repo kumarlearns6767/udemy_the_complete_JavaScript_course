@@ -34,5 +34,12 @@ console.log(3 % 3); // here '%' is remainder operator. '%' is also called "modul
 // Increment and Decrement operator -
 // Increment operator is used to increase the value of the operand either bt 1 or more. Example -
 let xz = 5;
-xz++;
-console.log(`Increased Valued of x = ${x}`);
+++xz;
+console.log(`Increased Valued of x = ${xz}`);
+
+// There are 2 types of increment and decrement operators -
+// postfix - operand++ / operand-- (example xz++ or xz--)
+// prefix - ++operand / --operand (example ++xz or --xz)
+
+// postfix is not clear as of now so will  add later
+// prefix changes the value of the operand immediately when the increment or decreament operator is applied.
