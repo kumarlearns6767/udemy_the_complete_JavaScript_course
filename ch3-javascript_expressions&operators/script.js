@@ -45,9 +45,15 @@ console.log(`Increased Valued of x = ${xz}`);
 // prefix changes the value of the operand immediately when the increment or decreament operator is applied.
 
 // *****  3) Comparison Operator -  *****
+// Comparison operators are used in logical statements to determine equality or difference between variables or values.
+
 const ab = 12;
 const bc = "12";
 console.log(`12 is equals to 12? ${12 == 12}`); // here '==' is quality operator. which check weather 2 operand are qeual or not.
 console.log(`12's data type is equals to "12"s datatype?  ${12 === "12"}`); // here '===' is strict equality operator operator check weather the datatype of the operands are equal or not.
 const cc = 32;
 console.log(`"12" is not equals to 32? ${bc != cc}`); // here '!=' is inequality operator.
+// why "" does not work with above console.log()s?
+
+console.log(`Is 12 greater than 11? ${12 > 11}`); //here '>' is grater than operator and '<' is lessthan.
+console.log(`Is 12 greater than equals to 11? ${12 >= 11}`); // here '>/' is greater than equals to than operator and '<=' is less than equals to than operator.
