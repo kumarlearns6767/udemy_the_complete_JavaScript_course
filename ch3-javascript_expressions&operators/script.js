@@ -32,8 +32,8 @@ console.log(3 % 3); // here '%' is remainder operator. '%' is also called "modul
 
 const ab = 12;
 const bc = "12";
-console.log(ab == bc); // here '==' is quality operator. which check weather 2 operand are qeual or not.
-console.log(ab === bc); // here '===' is strict equality operator operator check weather the datatype of the operands are equal or not.
+console.log("Ab is equals to bc? " + ab == bc); // here '==' is quality operator. which check weather 2 operand are qeual or not.
+console.log("Ab's data type is equals to bc's datatype? " + ab === bc); // here '===' is strict equality operator operator check weather the datatype of the operands are equal or not.
 
 const cc = 32;
 console.log(bc != cc); // here '%' is remainder operator. '%' is also called "modular operator".
