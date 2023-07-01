@@ -30,6 +30,14 @@ console.log(12 / 3); // here '/' is division operator.
 console.log(3 * 3); // here '*' is multiplication operator.
 console.log(3 % 3); // here '%' is remainder operator. '%' is also called "modular operator".
 
+const ab = 12;
+const bc = "12";
+console.log(ab == bc); // here '==' is quality operator. which check weather 2 operand are qeual or not.
+console.log(ab === bc); // here '===' is strict equality operator operator check weather the datatype of the operands are equal or not.
+
+const cc = 32;
+console.log(bc != cc); // here '%' is remainder operator. '%' is also called "modular operator".
+
 // *** Important ***
 // Increment and Decrement operator -
 // Increment operator is used to increase the value of the operand either bt 1 or more. Example -
