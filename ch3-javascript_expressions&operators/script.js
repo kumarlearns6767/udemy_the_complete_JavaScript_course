@@ -55,5 +55,5 @@ const cc = 32;
 console.log(`"12" is not equals to 32? ${bc != cc}`); // here '!=' is inequality operator.
 // why "" does not work with above console.log()s?
 
-console.log(`Is 12 greater than 11? ${12 > 11}`);
-console.log(`Is 12 greater than equals to 11? ${12 >= 11}`);
+console.log(`Is 12 greater than 11? ${12 > 11}`); //here '>' is grater than operator and '<' is lessthan.
+console.log(`Is 12 greater than equals to 11? ${12 >= 11}`); // here '>/' is greater than equals to than operator and '<=' is less than equals to than operator.
