@@ -50,4 +50,4 @@ const bc = "12";
 console.log(`12 is equals to 12? ${12 == 12}`); // here '==' is quality operator. which check weather 2 operand are qeual or not.
 console.log(`12's data type is equals to "12"s datatype?  ${12 === "12"}`); // here '===' is strict equality operator operator check weather the datatype of the operands are equal or not.
 const cc = 32;
-console.log(`"12" is not equals to 32? ${bc != cc}`); // here '!=' is remainder operator. '%' is also called "modular operator".
+console.log(`"12" is not equals to 32? ${bc != cc}`); // here '!=' is inequality operator.
