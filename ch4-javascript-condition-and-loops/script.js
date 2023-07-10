@@ -25,4 +25,18 @@ if (weather == "rainy") {
 // not satiesfies.
 
 // if-elseif-else conditional statements in Javascript -
-// in this statement,
+
+const nam = "duckduck";
+
+if (nam == "duckduck") {
+	console.log("Duckduck go is valid");
+} else if (nam == 12) {
+	console.log("today tempurature is 12 degree");
+} else if (nam == "15 sun") {
+	console.log("total 15 suns are there in milkyway");
+} else {
+	console.log("condition is not satisfied");
+}
+// in this statement, if the 1st cnodition is not valid then it goes to else if contions and if that if invalid then
+// it goes to next else if condition (if that is present) else if goes to else statement and
+// executes that block.
