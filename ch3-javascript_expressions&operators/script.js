@@ -77,9 +77,16 @@ let bf = 21;
 console.log(`is aa > bf and bf > 0? ${aa > bf && bf > 0}`); // it returns true because both the comparision is true.
 console.log(`is aa > bf and bf > 0? ${aa > bf && bf < 0}`); // it returns false because one of the comparision is  invalid/false.
 
-// 1) Logical && operator -
-//  The Logical AND (&&) operator (Logicl Conjuction) is used to check if the set of operands is
-// true including all of it's operands is true else it returns false. Example -
+// 2) Logical OR (||) operator -
+//  The Logical OR (||) operator (Logicl disjuction) is used to check if the set of operands is
+// true including only one of it's operands is true else it returns false when all of the condition/comparision is false. Example -
 
-console.log(`is aa > bf and bf > 0? ${aa > bf && bf > 0}`); // it returns true because both the comparision is true.
-console.log(`is aa > bf and bf > 0? ${aa > bf && bf < 0}`); // it returns false because one of the comparision is  invalid/false.
+console.log(`is aa > bf or bf >= 0? ${aa > bf || bf >= 0}`); // it returns true because both the comparision is true.
+console.log(`is aa < bf or bf <= 0? ${aa < bf || bf <= 0}`); // it returns false because all of the comparision is  invalid/false.
+
+// 3) Logical NOT (!) operator -
+// Logical NOT (!) is used to check that the operands/conditios/ vise versa is not satisfing with the checking.
+// it is also know as logical complememt/negation. Excample -
+
+console.log(`is aa not equals to bf? ${aa != bf}`); // it returns true because the checking is satisfied.
+console.log(`is aa not equals aa ${aa != aa}`); // it returns false because the checking is not satisfied.
