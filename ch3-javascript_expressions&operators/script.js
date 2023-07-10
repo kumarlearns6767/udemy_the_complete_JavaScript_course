@@ -90,3 +90,24 @@ console.log(`is aa < bf or bf <= 0? ${aa < bf || bf <= 0}`); // it returns false
 
 console.log(`is aa not equals to bf? ${aa != bf}`); // it returns true because the checking is satisfied.
 console.log(`is aa not equals aa ${aa != aa}`); // it returns false because the checking is not satisfied.
+
+// Challange time -
+
+// What is output of 3**3?
+
+console.log(`3**3? ${3 ** 3}`);
+// here ** is to the power which is doing 3*9 or 3**3 = 27.
+
+// what happens if we add a number with string?
+
+console.log(`12 + "12" = ? ${12 + "12"}`);
+// since the number is concatinated so we are getting 1212 ehich is a string.
+
+// write a program to swap 2 numbers -
+let num1 = 224;
+let num2 = 443;
+let thirdvar = num1; // 224;
+num1 = num2; // 443;
+num2 = thirdvar; // 224;
+
+console.log(`num1 = ${num1}, num2 = ${num2}`);
