@@ -111,3 +111,14 @@ num1 = num2; // 443;
 num2 = thirdvar; // 224;
 
 console.log(`num1 = ${num1}, num2 = ${num2}`);
+
+// write a program to swap 2 numbers without usingthird variable -
+
+let number = 112;
+let number2 = 221;
+
+number = number + number2;
+number2 = number - number2;
+number = number - number2;
+
+console.log(`number1 = ${number}, number2 = ${number2}`);
