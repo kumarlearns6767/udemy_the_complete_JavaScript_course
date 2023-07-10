@@ -45,7 +45,9 @@ console.log(`Increased Valued of x = ${xz}`);
 // prefix changes the value of the operand immediately when the increment or decreament operator is applied.
 
 // *****  3) Comparison Operator -  *****
-// Comparison operators are used in logical statements to determine equality or difference between variables or values.
+// Comparison operators are used in logical statements to determine equality or difference between variables or values. or
+// Comparison operator compares it's operands and returns a logicaal value on
+// weather the comparison is true or false.
 
 const ab = 12;
 const bc = "12";
