@@ -23,3 +23,6 @@ if (weather == "rainy") {
 // Everything is same with if-else except one factor -
 // it executes the else block instead of moving to the next code when if condition does
 // not satiesfies.
+
+// if-elseif-else conditional statements in Javascript -
+// in this statement,
