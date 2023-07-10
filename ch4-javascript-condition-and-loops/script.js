@@ -1,1 +1,25 @@
 "use strict";
+
+// Conditional statements in Javascript -
+// Javascript has if-else, if, if-elseif-else conditional statements. Let's understand them with examples-
+
+// if conditional statements in Javascript -
+let namee = "shyam";
+
+if (namee === "shyam") console.log("The Name is " + namee);
+
+// if conditional statements in Javascript check weather the conidtion satisfies or not. If
+// that condition is valid then it executes the instruction written in it's block else it
+// does not execustes the instructions and moves on to the next code.
+
+// if-else conditional statements in Javascript -
+let weather = "rain";
+if (weather == "rainy") {
+	console.log(`today's weather is ${weather}`);
+} else {
+	console.log(`today's weather is not rainy`);
+}
+
+// Everything is same with if-else except one factor -
+// it executes the else block instead of moving to the next code when if condition does
+// not satiesfies.
