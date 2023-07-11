@@ -1,15 +1,18 @@
+@import url(https://fonts.bunny.net/css?family=abeezee:400);
+
 * {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    font-family: sans-serif;
-    background: linear-gradient(90deg, rgba(37, 138, 252, 0.1) 27.64%,
-            rgba(136, 91, 255, 0.1) 43.42%,
-            rgba(212, 23, 247, 0.1) 58.83%,
-            rgba(246, 173, 109, 0.1) 81.81%);
+    font-family: 'ABeeZee', sans-serif;
 }
 
-body {
-    padding: 0rem;
+.container {
+    min-height: 100vh;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, rgba(37, 138, 252, 0.100) 27.64%, rgba(136, 91, 255, 0.100) 43.42%, rgba(213, 23, 247, 0.100) 58.83%, rgba(246, 173, 109, 0.100) 81.81%);
+}
 
+.mainheading {
+    margin: 0.5rem 0rem;
 }
