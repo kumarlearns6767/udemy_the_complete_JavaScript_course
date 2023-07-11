@@ -16,3 +16,7 @@
 .mainheading {
     margin: 0.5rem 0rem;
 }
+
+.con-list li {
+    margin: 0.8rem 0rem 0rem 2rem;
+}
