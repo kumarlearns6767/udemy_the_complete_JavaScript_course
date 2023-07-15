@@ -29,14 +29,35 @@ a {
     letter-spacing: 1.4px;
 }
 
+.global-btn-prop:hover {
+    transition: 0.2s ease;
+    transform: translatey(-10%);
+}
+
+.global-btn-prop:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
 .home-page-btn {
     background: rgb(28, 244, 28);
+}
+
+.home-page-btn:hover {
+    background: greenyellow;
 }
 
 .next-chapter-btn {
     background: rgb(255, 0, 183);
     color: rgb(255, 255, 255);
 }
+
+.next-chapter-btn:hover {
+    background: rgb(236, 3, 123);
+}
+
 
 
 /* --- Ch4 CSS --- */
