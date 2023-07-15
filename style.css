@@ -10,13 +10,36 @@
 /* --- Global CSS --- */
 
 
-
 .containere {
     min-height: 100vh;
     padding: 1rem 4rem !important;
     background: linear-gradient(90deg, rgba(37, 138, 252, 0.100) 27.64%, rgba(136, 91, 255, 0.100) 43.42%, rgba(213, 23, 247, 0.100) 58.83%, rgba(246, 173, 109, 0.100) 81.81%);
 }
 
+a {
+    text-decoration: none;
+}
+
+.global-btn-prop {
+    margin: 1.5rem 1rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
+
+.home-page-btn {
+    background: rgb(28, 244, 28);
+}
+
+.next-chapter-btn {
+    background: rgb(255, 0, 183);
+    color: rgb(255, 255, 255);
+}
+
+
+/* --- Ch4 CSS --- */
 .mainheading {
     margin: 0.5rem 0rem;
 }
