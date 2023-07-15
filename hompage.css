@@ -6,3 +6,13 @@
     scroll-behavior: smooth;
     font-family: 'ABeeZee', sans-serif;
 }
+
+.home-heading {
+    font-size: 38px;
+    margin-bottom: 0.8rem;
+}
+
+.home-para {
+    margin: 1rem 0rem;
+    font-size: 18px;
+}
