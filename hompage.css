@@ -27,6 +27,19 @@
     border-radius: 10px;
 }
 
+.chapter1-btn:hover {
+    transition: 0.3s ease;
+    transform: translatey(-10%);
+    background: rgb(10, 10, 222);
+}
+
+.chapter1-btn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
 .warning-container {
     display: flex;
     align-items: center;

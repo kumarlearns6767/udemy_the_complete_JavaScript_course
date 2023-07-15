@@ -7,6 +7,10 @@
     font-family: 'ABeeZee', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* --- Global CSS --- */
 
 
@@ -16,9 +20,10 @@
     background: linear-gradient(90deg, rgba(37, 138, 252, 0.100) 27.64%, rgba(136, 91, 255, 0.100) 43.42%, rgba(213, 23, 247, 0.100) 58.83%, rgba(246, 173, 109, 0.100) 81.81%);
 }
 
-a {
-    text-decoration: none;
+.chapter-heading {
+    font-size: 30px;
 }
+
 
 .global-btn-prop {
     margin: 1.5rem 1rem;
