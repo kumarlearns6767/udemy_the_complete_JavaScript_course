@@ -26,3 +26,25 @@
     border: none;
     border-radius: 10px;
 }
+
+.warning-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+.warning {
+    border: 3px solid red;
+    border-radius: 12px;
+    padding: 1rem;
+    color: white;
+    background: red;
+    ;
+
+}
+
+.access-scriptJs li {
+    font-size: 15px !important;
+    margin-left: 2rem;
+}
