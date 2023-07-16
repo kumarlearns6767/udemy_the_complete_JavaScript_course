@@ -37,6 +37,25 @@ if (nam == "duckduck") {
 } else {
 	console.log("condition is not satisfied");
 }
-// in this statement, if the 1st cnodition is not valid then it goes to else if contions and if that if invalid then
+// in this statement, if the 1st condition is not valid then it goes to else if contions and if that if invalid then
 // it goes to next else if condition (if that is present) else if goes to else statement and
 // executes that block.
+
+// What is truthy anf falsy values in Javascript?
+// answer: Values that are coerced into true are called truthy and values that are coerced into false are called falsy.
+
+// Falsy values - 0, "", undefined, null, NaN, falsee** .
+// If any of the above falsy values are passed then it returns false.
+
+// --- MOST IMPORTANT ---
+
+// Ternary Operator (which i did not understand in Java).
+// The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark ( ? ),
+// then an expression to execute if the condition is truthy followed by a colon ( : ),
+// and finally the expression to execute if the condition is falsy.
+
+// Example -
+
+const re = "raju";
+console.log(re === "lila" ? "Invalid Input" : "Valid Input");
+// printing (write the condition) ? if true? then execute this block : else do this.
