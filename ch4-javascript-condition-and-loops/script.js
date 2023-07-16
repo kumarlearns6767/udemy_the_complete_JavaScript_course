@@ -37,6 +37,6 @@ if (nam == "duckduck") {
 } else {
 	console.log("condition is not satisfied");
 }
-// in this statement, if the 1st cnodition is not valid then it goes to else if contions and if that if invalid then
+// in this statement, if the 1st condition is not valid then it goes to else if contions and if that if invalid then
 // it goes to next else if condition (if that is present) else if goes to else statement and
 // executes that block.
