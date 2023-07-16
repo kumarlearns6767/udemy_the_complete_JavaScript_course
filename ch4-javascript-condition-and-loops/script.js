@@ -46,3 +46,16 @@ if (nam == "duckduck") {
 
 // Falsy values - 0, "", undefined, null, NaN, falsee** .
 // If any of the above falsy values are passed then it returns false.
+
+// --- MOST IMPORTANT ---
+
+// Ternary Operator (which i did not understand in Java).
+// The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark ( ? ),
+// then an expression to execute if the condition is truthy followed by a colon ( : ),
+// and finally the expression to execute if the condition is falsy.
+
+// Example -
+
+const re = "raju";
+console.log(re === "lila" ? "Invalid Input" : "Valid Input");
+// printing (write the condition) ? if true? then execute this block : else do this.
