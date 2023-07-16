@@ -76,14 +76,3 @@ a {
 .next-chapter-btn:hover {
     background: rgb(236, 3, 123);
 }
-
-
-
-/* --- Ch4 CSS --- */
-.mainheading {
-    margin: 0.5rem 0rem;
-}
-
-.con-list li {
-    margin: 0.8rem 0rem 0rem 2rem;
-}
