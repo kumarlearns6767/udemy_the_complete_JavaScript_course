@@ -42,3 +42,7 @@ if (nam == "duckduck") {
 // executes that block.
 
 // What is truthy anf falsy values in Javascript?
+// answer: Values that are coerced into true are called truthy and values that are coerced into false are called falsy.
+
+// Falsy values - 0, "", undefined, null, NaN, falsee** .
+// If any of the above falsy values are passed then it returns false.
