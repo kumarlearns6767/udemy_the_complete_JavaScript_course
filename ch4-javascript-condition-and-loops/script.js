@@ -40,3 +40,5 @@ if (nam == "duckduck") {
 // in this statement, if the 1st condition is not valid then it goes to else if contions and if that if invalid then
 // it goes to next else if condition (if that is present) else if goes to else statement and
 // executes that block.
+
+// What is truthy anf falsy values in Javascript?
