@@ -79,6 +79,7 @@ while (digit <= 10) {
 	digit++;
 }
 
+console.log("\n\n");
 
 // *** Do While Loop ***
 // The do...while statement creates a loop that executes a 
@@ -91,6 +92,6 @@ while (digit <= 10) {
 let digit2 = 0;
 
 do {
-	console.log(digit2);
+	console.log(`2number = ${digit2}`);
 	digit2++;
 } while (digit2 <= 10);
