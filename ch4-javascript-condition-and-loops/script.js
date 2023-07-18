@@ -1,5 +1,6 @@
 "use strict";
 
+// alert("Chapter 4 page is incomplete so please do not click \n on any of the program links as it may not work as expected. \n the Issue willbe fixed when lalit lands a job.");
 // Conditional statements in Javascript -
 // Javascript has if-else, if, if-elseif-else conditional statements. Let's understand them with examples-
 
@@ -59,3 +60,58 @@ if (nam == "duckduck") {
 const re = "raju";
 console.log(re === "lila" ? "Invalid Input" : "Valid Input");
 // printing (write the condition) ? if true? then execute this block : else do this.
+
+// switch case skipped for time limitations.
+
+// ********* --------- Loops Starts --------- ***********
+
+// *** While Loop ***
+// The while statement creates a loop that executes a specified statement as long as
+// the test condition evaluates to true.
+// The condition is evaluated before executing the statement.
+
+// Example -
+
+let digit = 0;
+
+while (digit <= 10) {
+	console.log("number = " + digit);
+	digit++;
+}
+
+console.log("\n\n");
+
+// *** Do While Loop ***
+// The do...while statement creates a loop that executes a 
+// specified statement until the test condition evaluates to false. 
+// The condition is evaluated after executing the statement, 
+//  in the specified statement executing at least once.
+
+// Example -
+
+let digit2 = 0;
+// debugger;
+do {
+	console.log(`2number = ${digit2}`);
+	digit2++;
+} while (digit2 <= 10);
+
+
+// *** for loop ***
+// A for loop repeats until a specified condition
+// evaluates to false. The JavaScript for loop is
+// similar to the Java and C for loop.
+// A for statement looks as follows: js Copy to
+// Clipboard for (initialization; condition;
+// afterthought) statement.
+
+// Example -
+// Print the table of 8 using for loop - 
+
+let k;
+console.log(`\n Table of 8 =`);
+for (k = 0; k < 11; k++) {
+	let n = k * 8;
+	console.log(`8 x ${k} = ${n}`);
+	n++;
+}
