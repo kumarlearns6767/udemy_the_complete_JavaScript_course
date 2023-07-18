@@ -90,8 +90,28 @@ console.log("\n\n");
 // Example -
 
 let digit2 = 0;
-
+// debugger;
 do {
 	console.log(`2number = ${digit2}`);
 	digit2++;
 } while (digit2 <= 10);
+
+
+// *** for loop ***
+// A for loop repeats until a specified condition
+// evaluates to false. The JavaScript for loop is
+// similar to the Java and C for loop.
+// A for statement looks as follows: js Copy to
+// Clipboard for (initialization; condition;
+// afterthought) statement.
+
+// Example -
+// Print the table of 8 using for loop - 
+
+let k;
+console.log(`\n Table of 8 =`);
+for (k = 0; k < 11; k++) {
+	let n = k * 8;
+	console.log(`8 x ${k} = ${n}`);
+	n++;
+}
