@@ -1,8 +1,6 @@
 "use strict";
 
-alert(
-	" Chapter 4 page is incomplete so please do not click \n on any of the program links as it may not work as expected. \n the Issue willbe fixed when lalit lands a job."
-);
+// alert("Chapter 4 page is incomplete so please do not click \n on any of the program links as it may not work as expected. \n the Issue willbe fixed when lalit lands a job.");
 // Conditional statements in Javascript -
 // Javascript has if-else, if, if-elseif-else conditional statements. Let's understand them with examples-
 
@@ -74,4 +72,25 @@ console.log(re === "lila" ? "Invalid Input" : "Valid Input");
 
 // Example -
 
-let i, j, l;
+let digit = 0;
+
+while (digit <= 10) {
+	console.log("number = " + digit);
+	digit++;
+}
+
+
+// *** Do While Loop ***
+// The do...while statement creates a loop that executes a 
+// specified statement until the test condition evaluates to false. 
+// The condition is evaluated after executing the statement, 
+//  in the specified statement executing at least once.
+
+// Example -
+
+let digit2 = 0;
+
+do {
+	console.log(digit2);
+	digit2++;
+} while (digit2 <= 10);
