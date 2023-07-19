@@ -20,3 +20,38 @@ function sum()
 }
 
 sum(); // calling a function in order to use it.
+
+// now what is the difference between function parameters and function arguments
+// arguments? Answer - 
+
+// Note the difference between parameters and arguments: 
+// Function parameters are the names listed in the function's definition. 
+// Function arguments are the real values passed to the function.
+
+
+// Example -
+
+function printg(gf, bf) // these variables are called parameters
+{
+    let g = gf;
+    let b = bf;
+    console.log(`Taken Values are ${g} and ${b}`);
+}
+
+// let name1 = prompt(`Please enter a name = `);
+// let name2 = prompt(`Please enter 2nd name = `);
+printg("name1", "name2"); // this is Arguments.
+
+
+// They are used to avoid hard coding the values. we can pass required
+// values to the function using function_name(value1, value, ...) instead of
+// hardcoding them. (i did not understand while learning java. Thanks to thapa technical sir!)
+
+// Why Functions?
+// We can define code once and resuse it multiple times using functions.
+
+
+
+// What is function expression ?
+// -> create a fuction and put it into a variable. example - 
+
