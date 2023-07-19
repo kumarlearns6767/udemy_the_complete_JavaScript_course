@@ -31,13 +31,18 @@ sum(); // calling a function in order to use it.
 
 // Example -
 
-function printg(gf, bf) {
+function printg(gf, bf) // these variables are called parameters
+{
     let g = gf;
     let b = bf;
     console.log(`Taken Values are ${g} and ${b}`);
 }
 
+// let name1 = prompt(`Please enter a name = `);
+// let name2 = prompt(`Please enter 2nd name = `);
 printg("name1", "name2"); // this is Function Parameters.
+
+
 // They are used to avoid hard coding the values. we can pass required
 // values to the function using function_name(value1, value, ...) instead of
 // hardcoding them. (i did not understand while learning java. Thanks to thapa technical sir!)
