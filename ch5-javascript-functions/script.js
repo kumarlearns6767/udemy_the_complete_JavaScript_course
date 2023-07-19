@@ -53,4 +53,5 @@ printg("name1", "name2"); // this is Arguments.
 
 
 // What is function expression ?
-// -> 
+// -> create a fuction and put it into a variable. example - 
+
