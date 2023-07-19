@@ -40,7 +40,7 @@ function printg(gf, bf) // these variables are called parameters
 
 // let name1 = prompt(`Please enter a name = `);
 // let name2 = prompt(`Please enter 2nd name = `);
-printg("name1", "name2"); // this is Function Parameters.
+printg("name1", "name2"); // this is Arguments.
 
 
 // They are used to avoid hard coding the values. we can pass required
