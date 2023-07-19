@@ -20,3 +20,8 @@ function sum()
 }
 
 sum(); // calling a function in order to use it.
+
+// now what is the difference between function parameters and function arguments
+// arguments? Answer - 
+
+// 
