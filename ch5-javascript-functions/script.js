@@ -9,7 +9,9 @@
 
 // Example -
 
-function sum() {
+function sum()
+// declaring a function
+{ // declaring the body of the function.
     let a = 12,
         b = 13,
         c;
@@ -17,4 +19,4 @@ function sum() {
     console.log(`Sum of ${a} and ${b} = ${c}`);
 }
 
-sum();
+sum(); // calling a function in order to use it.
