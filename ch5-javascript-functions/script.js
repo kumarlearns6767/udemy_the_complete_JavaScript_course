@@ -46,3 +46,11 @@ printg("name1", "name2"); // this is Arguments.
 // They are used to avoid hard coding the values. we can pass required
 // values to the function using function_name(value1, value, ...) instead of
 // hardcoding them. (i did not understand while learning java. Thanks to thapa technical sir!)
+
+// Why Functions?
+// We can define code once and resuse it multiple times using functions.
+
+
+
+// What is function expression ?
+// -> 
