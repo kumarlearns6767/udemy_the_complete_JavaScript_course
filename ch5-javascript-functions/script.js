@@ -24,4 +24,17 @@ sum(); // calling a function in order to use it.
 // now what is the difference between function parameters and function arguments
 // arguments? Answer - 
 
-// 
+// Note the difference between parameters and arguments: 
+// Function parameters are the names listed in the function's definition. 
+// Function arguments are the real values passed to the function.
+
+
+// Example -
+
+function printg(gf, bf) {
+    let g = gf;
+    let b = bf;
+    console.log(`Taken Values are ${g} and ${b}`);
+}
+
+printg("name1", "name2"); // this is Function Parameters.
