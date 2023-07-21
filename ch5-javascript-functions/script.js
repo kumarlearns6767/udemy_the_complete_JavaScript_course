@@ -86,3 +86,12 @@ console.log(`Multiplication = ${funExp2}`);
 // Normally we use the function keyword before the function name to define
 // a function in JavaScript, however, in anonymous functions in JavaScript,
 // we use only the function keyword without the function name.
+
+// Example  - 
+
+let funExp3 = function (s2, s3) { //no function name
+    let subst;
+    return subst = s2 - s3;
+}
+
+console.log(`Substraction = ${funExp3(2023, 1995)}`); // calling the function with variable name.
