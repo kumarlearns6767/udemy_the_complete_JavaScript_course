@@ -15,6 +15,13 @@ console.log(`In 2015, ECMAScript decided to switch to regular release and ES6 wa
 // The let keyword
 // The const keyword
 // Arrow Functions
+// DESTRUCTURING
+// TEMPLATE STRINGS
+// OBJECT PROPERTIES
+// DEFAULT ARGUMENTS
+// ARROW FUNCTIONS
+// REST OPERATORS
+// SPREAD OPERATORS
 // The ... Operator
 // For/of
 // Map Objects
@@ -38,10 +45,20 @@ console.log(`In 2015, ECMAScript decided to switch to regular release and ES6 wa
 // Object entries
 // JavaScript Modules
 
-// let and cost are already explain in ch1
+// let and cost are already explain in ch1 but var is valid inside function(function scope) and let,const is valid in the declared block.
 // template literaly I already know.
+
+
 // now comes Default parameters-
 
 // Default function parameters allow named parameters to be initialized
 // with default values if no value or undefined is passed. Example- 
 
+function mu(sd, dc) {
+    return sd * dc; // doubt - retuen is returning the result. 
+    // That is understood but where the result is caught and
+    // without catching/storing, 
+    // how it is getting printed in console.log() ?
+}
+
+console.log(mu(5, 2));
