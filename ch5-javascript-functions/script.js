@@ -49,9 +49,19 @@ printg("name1", "name2"); // this is Arguments.
 
 // Why Functions?
 // We can define code once and resuse it multiple times using functions.
-
+// DRY => Don not repeat yourself.
 
 
 // What is function expression ?
 // -> create a fuction and put it into a variable. example - 
+
+function div(c1, c2) {
+    const divi = c1 / c2;
+    console.log(`Division of ${c1} and ${c2} = ${divi}`);
+}
+
+const funExp = div(12, 333); // function is called and stored in a variable at the same time.
+// function expression is incomplete without return keyword.
+
+// Example -
 
