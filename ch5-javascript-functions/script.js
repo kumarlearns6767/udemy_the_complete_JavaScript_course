@@ -64,4 +64,25 @@ const funExp = div(12, 333); // function is called and stored in a variable at t
 // function expression is incomplete without return keyword.
 
 // Example -
+function mul(m1, m2) {
+    let multip;
+    return multip = m1 * m2;
+}
 
+let funExp2 = mul(11132, 44323);
+
+console.log(`Multiplication = ${funExp2}`);
+
+// In return function in javascript the return
+// statement in JavaScript is written
+// the conclusion of the function execution and it
+// is used to stop any more function execution and
+// return the value. The function's body's final statement is
+// always the return statement.
+
+
+// Anonymous Function -
+// It is a function that does not have any name associated with it.
+// Normally we use the function keyword before the function name to define
+// a function in JavaScript, however, in anonymous functions in JavaScript,
+// we use only the function keyword without the function name.
