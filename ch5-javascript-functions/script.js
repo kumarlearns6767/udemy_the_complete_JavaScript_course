@@ -94,4 +94,6 @@ let funExp3 = function (s2, s3) { //no function name
     return subst = s2 - s3;
 }
 
-console.log(`Substraction = ${funExp3(2023, 1995)}`); // calling the function with variable name.
+const substraction = funExp3(2028, 1998); // calling the function and assigning it to a variable name.
+
+console.log(`Substraction = ${substraction}`); 
