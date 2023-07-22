@@ -55,7 +55,7 @@ console.log(`In 2015, ECMAScript decided to switch to regular release and ES6 wa
 // with default values if no value or undefined is passed. Example- 
 
 function mu(sd, dc) {
-    return sd * dc; // doubt - retuen is returning the result. 
+    return sd * dc; // doubt - return is returning the result. 
     // That is understood but where the result is caught and
     // without catching/storing, 
     // how it is getting printed in console.log() ?
