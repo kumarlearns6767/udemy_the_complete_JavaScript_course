@@ -14,12 +14,11 @@ console.log(`In 2015, ECMAScript decided to switch to regular release and ES6 wa
 
 // The let keyword
 // The const keyword
+// TEMPLATE STRINGS
 // Arrow Functions
 // DESTRUCTURING
-// TEMPLATE STRINGS
 // OBJECT PROPERTIES
 // DEFAULT ARGUMENTS
-// ARROW FUNCTIONS
 // REST OPERATORS
 // SPREAD OPERATORS
 // The ... Operator
@@ -50,7 +49,7 @@ console.log(`In 2015, ECMAScript decided to switch to regular release and ES6 wa
 // 2) template litera/string I already know.
 
 
-// now comes 3) Default parameters-
+// 3) Default parameters-
 
 // Default function parameters allow named parameters to be initialized
 // with default values if no value or undefined is passed. Example- 
@@ -86,3 +85,10 @@ const average = () => { // fuction is decalred and initialized.
 }
 
 console.log(average());
+
+
+// 5) Destructuring -
+// Destructuring is a JavaScript expression that makes it possible
+// to unpack values from arrays, or properties from objects,
+// into distinct variables. That is, we can extract data from arrays
+// and objects and assign them to variables
