@@ -46,3 +46,5 @@ console.log("Array after decreased length: ", courses)
 
 // First element of an array is called Lower Inder or Lower Boundary.
 // Last element of an array is called Upper Inder or Upper Boundary.
+
+// Array always start eith 0 index.
