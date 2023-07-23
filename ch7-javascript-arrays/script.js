@@ -44,3 +44,5 @@ console.log("Array after decreased length: ", courses)
 // Array after increased length:  [ 'HTML', 'CSS', 'Javascript', <2 empty items> ]
 // Array after decreased length:  [ 'HTML', 'CSS' ]
 
+// First element of an array is called Lower Inder or Lower Boundary.
+// Last element of an array is called Upper Inder or Upper Boundary.
