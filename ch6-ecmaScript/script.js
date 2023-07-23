@@ -45,20 +45,44 @@ console.log(`In 2015, ECMAScript decided to switch to regular release and ES6 wa
 // Object entries
 // JavaScript Modules
 
-// let and cost are already explain in ch1 but var is valid inside function(function scope) and let,const is valid in the declared block.
-// template literaly I already know.
+// 1) let and cost are already explain in ch1 but var is valid inside function(function scope) and let,const is valid in the declared block.
+
+// 2) template litera/string I already know.
 
 
-// now comes Default parameters-
+// now comes 3) Default parameters-
 
 // Default function parameters allow named parameters to be initialized
 // with default values if no value or undefined is passed. Example- 
 
 function mu(sd, dc) {
-    return sd * dc; // doubt - retuen is returning the result. 
+    return sd * dc; // doubt - return is returning the result. 
     // That is understood but where the result is caught and
     // without catching/storing, 
     // how it is getting printed in console.log() ?
 }
 
-console.log(mu(5, 2));
+console.log(mu(5, 2)); // here we are providing the values to sd and dc but what if any of them get no value?
+// In that case we assign a default value to or parameter like this - 
+function yamaha(mileage = 24, capacity = 12) {
+    return mileage * capacity;
+}
+
+console.log(yamaha()); // no value provided so default values will be printed.
+
+
+// 4) Arrow Function -
+// Arrow functions{()=>} are a clear and concise method
+// of writing normal/regular Javascript functions in a
+// more accurate and shorter way. Arrow functions were
+// introduced in the ES6 version.
+// They make our code more structured and readable.  Example -
+
+const average = () => { // fuction is decalred and initialized.
+    let numm1 = 12, numm2 = 32, dum, avg;
+    dum = numm1 + numm2;
+    avg = dum / 2;
+    return (`The average of ${numm1} and ${numm2} = ${avg}`)
+}
+
+console.log(average());
