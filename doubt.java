@@ -7,10 +7,11 @@ public class doubt {
         System.out.println("\n");
         System.out.println("Chapter 2 - line no 84 onwards.");
         System.out.println("\n");
-        System.out.println("Chapter 3 - line no 44");
+        System.out.println("Chapter 3 - line no 44.");
         System.out.println("\n");
-        System.out.println("Chapter 3 - line no 54");
-        System.out.println("\n Chapter 5 - line no 66 - Function Expression with return keyword.")
-        System.out,println("\n Chapter 6 - line no 58.")
+        System.out.println("Chapter 3 - line no 54.");
+        System.out.println("\n Chapter 5 - line no 66 - Function Expression with return keyword.");
+        System.out.println("\n Chapter 6 - line no 58.");
+        System.out.println("\n Chapter 6 - line no 96.");
     }
 }

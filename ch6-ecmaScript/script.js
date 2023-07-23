@@ -91,4 +91,8 @@ console.log(average());
 // Destructuring is a JavaScript expression that makes it possible
 // to unpack values from arrays, or properties from objects,
 // into distinct variables. That is, we can extract data from arrays
-// and objects and assign them to variables
+// and objects and assign them to variables.   Example -
+
+// unable to understand so exaple not given.
+
+// 6) OBJECT PROPERTIES -
