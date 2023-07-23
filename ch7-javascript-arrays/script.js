@@ -12,6 +12,8 @@
 
 // let arrayName = [value1, value2, ...];
 
+let arrayname = ['name1', 'name2', 'name3'];
+
 // using new keyword - 
 
 let arrName = new Array(3);
@@ -44,3 +46,21 @@ console.log("Array after decreased length: ", courses)
 // Array after increased length:  [ 'HTML', 'CSS', 'Javascript', <2 empty items> ]
 // Array after decreased length:  [ 'HTML', 'CSS' ]
 
+// to know more visit - https://www.geeksforgeeks.org/javascript-arrays/. (taken from outside source)
+
+
+
+// First element of an array is called Lower Inder or Lower Boundary.
+// Last element of an array is called Upper Inder or Upper Boundary.
+
+// Array always start eith 0 index.
+
+
+// Traversal Array -  Instead of having to perform an action for each item in an array individually,
+// loops allow us to repeat the action a selected number of times. example - 
+
+let enemies = ['poulov', 'suman', 'sneha', 'aslesha', 'arg'];
+
+console.log(`One of my enemy = ${enemies[2]}`);
+
+// to check the length of an array
