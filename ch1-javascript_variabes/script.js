@@ -26,7 +26,7 @@ var namee = "Lal";
 // string or string to boolean and vice versa.
 let my_power = 12;
 
-// 8) Const is another variable declarer which does not allows to change data type of variables.
+// 8) Const is another variable declarer which does not allows to change data type of variables and you cannot reassign the vaiable (ex- const lalu = "true"; lalu = 34).
 // it should be the default variable declarer until let is required.
 const my_age = 23;
 
