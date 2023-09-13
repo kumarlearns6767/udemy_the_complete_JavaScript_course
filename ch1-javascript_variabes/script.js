@@ -32,5 +32,5 @@ const my_age = 23;
 
 console.log(namee + " power is " + my_power + "kg and his age is " + my_age);
 
-const _power__12 = 14; // more than 1 underscore can be used to declare variable and it is valid.
-// let raju^%kalu = "sick"; Even special characters like % and ^ are not allowed for variable declarations.
+const _power__12 = 14; // more than 1 underscore can be used to declare variable and it is valid but,
+// let raju^%kalu = "sick"; special characters like % and ^ are not allowed for variable declarations and that is invalid.
