@@ -17,7 +17,9 @@
 var namee = "Lal";
 // Syntax for variable declaration for - var/let/const (which is variable declaration type) is - 
 // var/let/const variable_name = "value";
-
+// example for string variable -> let/comst/var post = "engineer";
+// example for integer variable -> let/const/var age = 12;
+// example for boolean variable -> let/const/var result = true;
 
 // 7) Let is mordern replacement of Var which is suggested variable to use instead of var.
 // Let should be used only if the variable's data type is expected to be changed means integer
