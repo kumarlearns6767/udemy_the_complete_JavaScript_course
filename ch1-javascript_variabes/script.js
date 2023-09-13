@@ -15,8 +15,9 @@
 
 // 6) Var is such a variable declarer who is depratiated.
 var namee = "Lal";
-// syntax - var/let/const (which is variable declaration type)
-// then variavle name which is name = "variale value which is Lalit";
+// Syntax for variable declaration for - var/let/const (which is variable declaration type) is - 
+// var/let/const variable_name = "value";
+
 
 // 7) Let is mordern replacement of Var which is suggested variable to use instead of var.
 // Let should be used only if the variable's data type is expected to be changed means integer
