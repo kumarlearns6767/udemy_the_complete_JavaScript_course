@@ -4,6 +4,9 @@
 // 1) Variable names should start only with Letter or $ or _ (underscore). Anything other than that
 // is not accepted.
 // So var 12raj is invalid and raj12 is Valid.
+// Example - 
+let $sam = true;
+console.log("Sam is " + $sam);
 
 // 2) Javascript is Case sensitive so myAge and myage is different.
 
@@ -21,7 +24,7 @@ var namee = "Lal";
 // example for integer variable -> let/const/var age = 12;
 // example for boolean variable -> let/const/var result = true;
 
-// 7) Let is mordern replacement of Var which is suggested variable to use instead of var.
+// 7) Let is mordern replacement of Var which is suggested to use instead of var.
 // Let should be used only if the variable's data type is expected to be changed means integer
 // string or string to boolean and vice versa.
 let my_power = 12;
