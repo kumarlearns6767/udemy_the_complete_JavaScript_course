@@ -6,9 +6,13 @@
 // So var 12raj is invalid and raj12 is Valid.
 // Example - 
 let $sam = true;
-console.log("Sam is " + $sam);
+console.log("Variable declaration with '$' works? " + $sam + "\n");
 
 // 2) Javascript is Case sensitive so myAge and myage is different.
+// Example - 
+let myAge = 12;
+let myage = 12;
+console.log(myAge === myage);
 
 // 3)Variable name cannot have spaces.
 

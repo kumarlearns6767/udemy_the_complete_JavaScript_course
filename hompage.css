@@ -8,12 +8,14 @@
 }
 
 .home-heading {
-    font-size: 38px;
+    font-size: 31px;
     margin-bottom: 0.8rem;
+    font-weight: 800;
+    text-align: center;
 }
 
 .home-para {
-    margin: 1rem 0rem;
+    margin: 2rem 0rem;
     font-size: 18px;
 }
 
@@ -44,7 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15rem;
+    margin-top: 1rem !important;
 }
 
 .warning {
