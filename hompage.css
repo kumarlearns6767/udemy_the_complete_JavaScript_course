@@ -22,7 +22,7 @@
 .chapter1-btn {
     padding: 1rem 1.9rem;
     margin: 0.5rem 0.5rem 1.6rem 0.5rem;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     background: blue;
     border: none;
@@ -30,9 +30,10 @@
 }
 
 .chapter1-btn:hover {
-    transition: 0.3s ease;
+    transition: 0.4s ease;
     transform: translatey(-10%);
     background: rgb(10, 10, 222);
+    font-weight: 800;
 }
 
 .chapter1-btn:active {
