@@ -16,8 +16,9 @@ let myAge = 12;
 let myage = 12;
 console.log(`myAge == myage? ${myAge == myage}`); // but how this is working?
 console.log(`myAge === myage? ${myAge === myage}`); // but how this is working?
-// 3)Variable name cannot have spaces.
 
+
+// 3)Variable name cannot have spaces.
 
 // 4) There is no limit to the lenght of a variable while declaration.
 
