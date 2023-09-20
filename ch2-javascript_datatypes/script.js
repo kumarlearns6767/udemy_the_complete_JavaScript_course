@@ -2,6 +2,11 @@
 
 // DATA TYPES IN JAVASCRIPT - 
 
+// What is Data Types in Javascript?
+// Data types describe the different types or kinds of data that we're gonna be working with 
+// and storing in variables. In Javascript, there are five basic, or primitive, types of data. 
+// The five most basic types of data are strings, numbers, booleans, undefined, and null.
+
 // In Javascript, we exclusively do not define the data type of the variable seperately.
 // It is because it can automatically determine the data type of a variable.
 // Which can be a problem for a begonner to understand and in some cases for the experienced developer too.
@@ -60,7 +65,7 @@ console.log(typeof founder);
 // operator does the same thing. It is because there is no value assigned to the variable.
 
 // BigInt Data Types -
-let biginteger = 12121212121212121212121212121212121212;
+let biginteger = 212121212121212121212121212121212;
 console.log(biginteger);
 console.log(typeof biginteger);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
@@ -80,6 +85,7 @@ console.log(typeof dimboll);
 
 console.log(9 + "6"); // The output is concatinated string
 console.log(9 + "Car"); // The output is concatinated string
+
 // But when we do substraction with a number inside "" which makes it string, it works and does the mathematical operation and it is a bug is Javascript-
 console.log(200 - "12"); // The output is mathematical operation which is 118.
 console.log(200 - "raju"); // The output is NaN which means not a number.
