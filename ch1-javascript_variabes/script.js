@@ -5,16 +5,19 @@
 // is not accepted.
 // So var 12raj is invalid and raj12 is Valid.
 // Example - 
-let $sam = true;
+let $sam = true; // variable name starting with '$' is valid.
 console.log("Variable declaration with '$' works? " + $sam + "\n");
+const raj12 = true;
+console.log(`Variable declaration with raj12 works? ${raj12}`);
 
 // 2) Javascript is Case sensitive so myAge and myage is different.
 // Example - 
 let myAge = 12;
 let myage = 12;
-console.log(myAge === myage);
-
+console.log(`myAge == myage? ${myAge == myage}`); // but how this is working?
+console.log(`myAge === myage? ${myAge === myage}`); // but how this is working?
 // 3)Variable name cannot have spaces.
+
 
 // 4) There is no limit to the lenght of a variable while declaration.
 
