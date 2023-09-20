@@ -1,5 +1,7 @@
 "use strict";
 
+// DATA TYPES IN JAVASCRIPT - 
+
 // In Javascript, we exclusively do not define the data type of the variable seperately.
 // It is because it can automatically determine the data type of a variable.
 // Which can be a problem for a begonner to understand and in some cases for the experienced developer too.

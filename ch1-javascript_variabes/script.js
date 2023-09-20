@@ -1,5 +1,12 @@
 "use strict";
 
+// variables in javascript - 
+
+// What is variables in javascript? 
+// A JavaScript variable is simply a name of storage location. 
+// Variables are Containers for Storing Data,
+// There are two types of variables in JavaScript : local variable and global variable.
+
 // Variable declaration rules -
 // 1) Variable names should start only with Letter or $ or _ (underscore). Anything other than that
 // is not accepted.
