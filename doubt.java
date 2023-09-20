@@ -7,9 +7,9 @@ public class doubt {
         System.out.println("\n");
         System.out.println("Chapter 1 - line no 17 and 18.");
         System.out.println("\n");
-        System.out.println("Chapter 2 - line no 90,91,92 onwards.");
+        System.out.println("Chapter 2 - line no 90,91,92.");
         System.out.println("\n");
-        System.out.println("Chapter 3 - line no 44.");
+        System.out.println("Chapter 3 - line no 11,12,13,44.");
         System.out.println("\n");
         System.out.println("Chapter 3 - line no 54.");
         System.out.println("\n Chapter 5 - line no 66 - Function Expression with return keyword.");

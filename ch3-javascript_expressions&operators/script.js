@@ -1,7 +1,21 @@
 "use strict";
+
+// EXPRESSIONS AND OPERATORS IN JAVASCRIPT - 
+
+// What is Expressions in JavaScript ?
+// JavaScript's expression is a valid set of literals, variables, operators, and expressions 
+// that evaluate a single value that is an expression. 
+// This single value can be a number, a string, or a logical value depending on the expression.
+
+//example - 
 5 + 20;
 // here 5 is operand, + is operator and 20 is operand.
 // and combination of operator and operand are called expressions.
+
+
+// What is operators in JavaScript ?
+// Operators are used to assign values, compare values, perform arithmetic operations, and more. 
+// There are different types of JavaScript operators: Arithmetic Operators. Assignment Operators.
 
 // There are 6 types of Operators in JavaScript-
 
