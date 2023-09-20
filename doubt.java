@@ -1,9 +1,11 @@
 import java.io.*;
 public class doubt {
     public static void main(String[] args)throws IOException {
-        System.out.println("\n\n This File is to log the doubts in entire Javascript Course.");
-        System.out.println("\n It is intentionally created in Java to showcase basic level of java skills");
+        System.out.println("\n\n This File is to log the doubts of entire Javascript Course.");
+        System.out.println("\n");
         System.out.println("Doubts are in the following chapters- ");
+        System.out.println("\n");
+        System.out.println("Chapter 1 - line no 17 and 18.");
         System.out.println("\n");
         System.out.println("Chapter 2 - line no 84 onwards.");
         System.out.println("\n");

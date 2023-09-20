@@ -26,6 +26,8 @@ console.log(`myAge === myage? ${myAge === myage}`); // but how this is working?
 
 // 6) Var is such a variable declarer who is depratiated.
 var namee = "Lal";
+
+
 // Syntax for variable declaration for - var/let/const (which is variable declaration type) is - 
 // var/let/const variable_name = "value";
 // example for string variable -> let/comst/var post = "engineer";
