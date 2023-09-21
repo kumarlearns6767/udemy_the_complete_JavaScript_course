@@ -114,17 +114,21 @@ const myNumber = 6270897643;
 const muName = "Lila Raju";
 console.log(isNaN(myNumber)); // Printing the variable result with isNaN() method to check the result.
 console.log(isNaN(muName));
-// Note - 1:09:52 hour is a dount I could not understand in thapa technical.
+// Note - 1:09:52 hour is a doubt I could not understand in thapa technical.
 console.log("str".isNaN() === NaN);
 
 
 // ***** NON PRIMITIVE Data Types ******
-// Objects are non primitive data types in Javascript. There are 
+// Objects are non primitive data types in Javascript.
+
+
 // Arrays-
 
 // What is an Array in Javascript?
 // JavaScript Array is a single variable that is used to store elements of different data types. JavaScript arrays are zero-indexed. The Javascript Arrays are not associative in nature. Arrays are used when we have a list of items.
 
 // Example - 
+let arr1 = [1, 2, 55, 67, 34];
+console.log(typeof (arr1));
 
-let arr1 = [1, 2, er, cd, 55, 67, gf, Sd, cd, 34, fv, 23.4566, 54, true, false];
+// difference between index.js and script.js?
