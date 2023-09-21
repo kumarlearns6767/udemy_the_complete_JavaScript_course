@@ -94,7 +94,7 @@ console.log('"12" is not equals to 32?' + bc != cc); // here '!=' is inequality 
 console.log(`Is 12 greater than 11? ${12 > 11}`); //here '>' is greater than operator and '<' is lessthan.
 console.log(`Is 12 greater than equals to 11? ${12 >= 11}`); // here '>=' is greater than equals to than operator and '<=' is less than equals to than operator.
 console.log(`Is 12 less than 11? ${12 < 11}`); //here '<' is less than operator and '<' is lessthan.
-console.log(`Is 12 less than equals to 11? ${12 <= 11}`); // here '<=' is greater than equals to than operator.
+console.log(`Is 12 less than equals to 11? ${12 <= 11} \n\n\n`); // here '<=' is greater than equals to than operator.
 
 // *****  4) Logical Operator -  *****
 // Logical operators are typically used with Boolean (logical/true/false) values.
@@ -108,21 +108,21 @@ let bf = 21;
 // true including all of it's operands is true else it returns false. Example -
 
 console.log(`is aa > bf and bf > 0? ${aa > bf && bf > 0}`); // it returns true because both the comparision is true.
-console.log(`is aa > bf and bf > 0? ${aa > bf && bf < 0}`); // it returns false because one of the comparision is  invalid/false.
+console.log(`is aa > bf and bf > 0? ${aa > bf && bf < 0} \n\n`); // it returns false because one of the comparision is  invalid/false.
 
 // 2) Logical OR (||) operator -
 //  The Logical OR (||) operator (Logicl disjuction) is used to check if the set of operands is
 // true including only one of it's operands is true else it returns false when all of the condition/comparision is false. Example -
 
 console.log(`is aa > bf or bf >= 0? ${aa > bf || bf >= 0}`); // it returns true because both the comparision is true.
-console.log(`is aa < bf or bf <= 0? ${aa < bf || bf <= 0}`); // it returns false because all of the comparision is  invalid/false.
+console.log(`is aa < bf or bf <= 0? ${aa < bf || bf <= 0}\n\n`); // it returns false because all of the comparision is  invalid/false.
 
 // 3) Logical NOT (!) operator -
 // Logical NOT (!) is used to check that the operands/conditios/ vise versa is not satisfing with the checking.
 // it is also know as logical complememt/negation. Excample -
 
 console.log(`is aa not equals to bf? ${aa != bf}`); // it returns true because the checking is satisfied.
-console.log(`is aa not equals aa ${aa != aa}`); // it returns false because the checking is not satisfied.
+console.log(`is aa not equals aa ${aa != aa}\n\n\n`); // it returns false because the checking is not satisfied.
 
 // Challange time -
 
