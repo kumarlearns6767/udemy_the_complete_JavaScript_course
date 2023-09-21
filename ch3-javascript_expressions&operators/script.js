@@ -7,17 +7,25 @@
 // that evaluate a single value that is an expression. 
 // This single value can be a number, a string, or a logical value depending on the expression.
 
-//example - 
-5 + 20;
-// here 5 is operand, + is operator and 20 is operand.
-// and combination of operator and operand are called expressions.
-
 
 // What is operators in JavaScript ?
 // Operators are used to assign values, compare values, perform arithmetic operations, and more. 
 // There are different types of JavaScript operators: Arithmetic Operators. Assignment Operators.
 
+//example - 
+5 + 20;
+// here 5 is operand, + is operator and 20 is operand.
+// and combination of operator and operand are called expressions.
 
+// To use " or ' quotations together which writing a string, we can use \ back slash. 
+// example - 
+let gf = "nahi hai"; // this is allowed.
+let gf2 = 'kese hogi'; // this is also allowed.
+// but, 
+// let gf3 = "Akaud "se bahar!!""; // this is not allowed. 
+//So, to fix this issue, use can use \ or `` backticks shown below - 
+let gf3 = `Akaud \"se bahar!!"`;
+console.log(`gf3? ${gf3}`);
 
 // There are 6 types of Operators in JavaScript-
 
