@@ -17,22 +17,29 @@
 // Operators are used to assign values, compare values, perform arithmetic operations, and more. 
 // There are different types of JavaScript operators: Arithmetic Operators. Assignment Operators.
 
+
+
 // There are 6 types of Operators in JavaScript-
 
+
 // *****  1) Assignment Operator -  *****
-// Assignment Operator is used to assign a valur to the left operand based on the value of right operand. Example -
+// Assignment Operator is used to assign a value to the left operand based on the value of right operand. 
+
+// Example -
 const x = 5;
+//   x is left operand, = is assignment operator, 5 is right operand.
 const y = 5;
 
-// If you want to use === or == operator to compare x and y values then it will only work when they are not concatenated with
-// anyone and is printed seperately. Example -
-console.log("is x equals to y? " + x === y); // it retuens false.
+// If you want to use === or == operator to compare x and y values then it will only work when they are not concatenated with anyone and is printed seperately. 
+
+//Example -
+console.log("Is x/" + x + " equals to y/" + y + "? " + x === y); // it returns false and does not prints the string in console.log which should not happen.
 console.log(x === y); // it returns true.
 console.log(x == y); // it returns true.
 // Solution is use `` to solve the issue. Example:
-console.log(`Is x and y are equal? ${x === y}`);
-
+console.log(`Is x and y are equal? ${x === y} \n\n\n`);
 // We saw above that how the assignment operator '=', '==', and '===' works.
+
 
 // *****  2) Arithmetic Operator -  *****
 // Arithmetic Operators takes numerical values (either literals or variables) as their operands and
