@@ -133,10 +133,11 @@ console.log(`3**3? ${3 ** 3}`);
 
 // what happens if we add a number with string?
 
-console.log(`12 + "12" = ? ${12 + "12"}`);
+console.log(`12 + "12" = ? ${12 + "12"}\n\n\n`);
 // since the number is concatinated so we are getting 1212 ehich is a string.
 
 // write a program to swap 2 numbers -
+console.log(`Write a program to swap 2 numbers - `);
 let num1 = 224;
 let num2 = 443;
 let thirdvar = num1; // 224;
@@ -146,6 +147,7 @@ num2 = thirdvar; // 224;
 console.log(`num1 = ${num1}, num2 = ${num2}`);
 
 // write a program to swap 2 numbers without usingthird variable -
+console.log(`Write a program to swap 2 numbers without using 3rd variable - `);
 
 let number = 112;
 let number2 = 221;
