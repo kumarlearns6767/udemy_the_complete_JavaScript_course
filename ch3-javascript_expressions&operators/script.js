@@ -57,14 +57,18 @@ console.log("3+3? " + 3 + 3); // here '+' is addition operator.
 console.log(`3-3? ${3 - 3}`); // here '-' is substraction operator.
 console.log("12/3? " + 12 / 3); // here '/' is division operator.
 console.log("3*3? " + 3 * 3); // here '*' is multiplication operator.
-console.log("3%3? " + (3 % 3)); // here '%' is remainder operator. '%' is also called "modular operator".
+console.log("3%3? " + (3 % 3) + "\n\n\n"); // here '%' is remainder operator. '%' is also called "modular operator".
 
 // *** Important ***
 // Increment and Decrement operator -
 // Increment operator is used to increase the value of the operand either bt 1 or more. Example -
 let xz = 5;
-++xz;
-console.log(`Increased Valued of x = ${xz}`);
+let numze = 12;
+++xz; // prefix operator.
+numze++; // postfix operator.
+console.log(`Postfix and Prefix operators - `);
+console.log(`Increased Valued prefix of xz = ${xz}`);
+console.log(`Increased postfix value of numze = ${numze} \n\n`);
 
 // There are 2 types of increment and decrement operators -
 // postfix - operand++ / operand-- (example xz++ or xz--)
@@ -84,7 +88,7 @@ const cc = 32;
 
 console.log(`12 is equals to 12? ${12 == 12}`); // here '==' is quality operator. which check weather 2 operand are qeual or not.
 console.log(`12's data type is equals to "12"s datatype?  ${12 === "12"}`); // here '===' is strict equality operator operator check weather the datatype of the operands are equal or not.
-console.log(`"12" is not equals to 32? ${bc != cc}`); // here '!=' is inequality operator.
+console.log('"12" is not equals to 32?' + bc != cc); // here '!=' is inequality operator.
 // why "" does not work with above console.log()s?
 
 console.log(`Is 12 greater than 11? ${12 > 11}`); //here '>' is greater than operator and '<' is lessthan.
