@@ -9,7 +9,7 @@ public class doubt {
         System.out.println("\n");
         System.out.println("Chapter 2 - line no 90,91,92.");
         System.out.println("\n");
-        System.out.println("Chapter 3 - line no 11,12,13,33,44,118,129,132. And postfix, prefix.");
+        System.out.println("Chapter 3 - line no 11,12,13,33,118,129,132. And postfix, prefix.");
         System.out.println("Single backslash n does not works with Backticks i javascript.");
         System.out.println("\n");
         System.out.println("Chapter 3 - line no 54.");

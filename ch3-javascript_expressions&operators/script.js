@@ -41,7 +41,7 @@ const y = 5;
 // If you want to use === or == operator to compare x and y values then it will only work when they are not concatenated with anyone and is printed seperately. 
 
 //Example -
-console.log("Is x/" + x + " equals to y/" + y + "? " + x === y); // it returns false and does not prints the string in console.log which should not happen.
+console.log("Is x " + x + " equals to y " + y + "? " + (x === y)); // it returns false and does not prints the string in console.log which should not happen.This is happening because it is comparing the enrire string with y.
 console.log(x === y); // it returns true.
 console.log(x == y); // it returns true.
 // Solution is use `` to solve the issue. Example:
