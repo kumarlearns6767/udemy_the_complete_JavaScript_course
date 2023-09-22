@@ -4,50 +4,73 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Even ODD Program</title>
+		<title>Leap Year Program</title>
 		<link rel="stylesheet" href="../../../style.css" />
+		<!-- Bootstrap Css- -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous" />
 	</head>
 	<body>
 		<main class="containere">
-			<h1 class="chapter-heading">
-				Program 2 - Check if a yer is Leap Year or not in JavaScript.
-			</h1>
+			<div class="container-fluid">
+				<h1 class="chapter-heading">
+					Program 2 - Check if a yer is Leap Year or not in JavaScript.
+				</h1>
 
-			<p class="global-para">
-				Please open console to see the output, <br />
-				Visit script.js file to understand whats going on, <br />
-				and refersh the page to run the program.
-			</p>
+				<p class="global-para">
+					Visit script.js file to understand whats going on, and refersh the
+					page to run the program.
+				</p>
 
-			<br />
+				<div class="odd-even-form">
+					<label>Please Enter a Number = </label>
+					<input type="text" name="UserInput" id="UserNumber" />
+					<button onclick="check()" class="submit-button">Submit</button>
+					<p class="return-text" id="return-value">Your Number is =</p>
+				</div>
 
-			<footer class="footer-container">
-				<a href="../../ch4-javascript-condition-and-loops/index.html">
-					<button class="previous-chapter-btn global-btn-prop">Back</button>
-				</a>
-				<a href="../../index.html">
-					<button class="home-page-btn global-btn-prop">Home</button>
-				</a>
-				<a href="../p2-leapYear/index.html">
-					<button class="next-chapter-btn global-btn-prop">Next Program</button>
-				</a>
+				<br />
 
-				<select name="" id="chapter-list">
-					<option value="">Select Program</option>
-					<option value="">
-						<a href=""> ch1- Variables </a>
-					</option>
-					<option value="">Ch2- Datatypes</option>
-					<option value="">Ch3- Expressions</option>
-					<option value="">Ch4- Conditions and Loops</option>
-					<option value="">Ch5- ES6 Part 1</option>
-					<option value="">Ch6- Arrays</option>
-					<option value="">Ch7- Strings</option>
-					<option value="">Ch8- Date and Time</option>
-					<option value="">Ch9- Math Object</option>
-					<option value="">Ch10- DOM, BOM, Window Object</option>
-				</select>
-			</footer>
+				<footer class="footer-container">
+					<a href="../../index.html">
+						<button class="previous-chapter-btn global-btn-prop">
+							Back to Ch4
+						</button>
+					</a>
+					<a href="../p1-even-odd/index.html">
+						<button class="previous-chapter-btn global-btn-prop">
+							Back to Program 1
+						</button>
+					</a>
+					<a href="../../../index.html">
+						<button class="home-page-btn global-btn-prop">Home</button>
+					</a>
+					<a href="../p2-leapYear/index.html">
+						<button class="next-chapter-btn global-btn-prop">
+							Next Program
+						</button>
+					</a>
+
+					<select name="" id="chapter-list">
+						<option value="">Select Program</option>
+						<option value="">
+							<a href=""> ch1- Variables </a>
+						</option>
+						<option value="">Ch2- Datatypes</option>
+						<option value="">Ch3- Expressions</option>
+						<option value="">Ch4- Conditions and Loops</option>
+						<option value="">Ch5- ES6 Part 1</option>
+						<option value="">Ch6- Arrays</option>
+						<option value="">Ch7- Strings</option>
+						<option value="">Ch8- Date and Time</option>
+						<option value="">Ch9- Math Object</option>
+						<option value="">Ch10- DOM, BOM, Window Object</option>
+					</select>
+				</footer>
+			</div>
 		</main>
 		<script src="LeapYear.js"></script>
 	</body>
