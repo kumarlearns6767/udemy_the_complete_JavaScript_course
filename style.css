@@ -81,3 +81,13 @@ a {
 .next-chapter-btn:hover {
     background: rgb(236, 3, 123);
 }
+
+.user-input {
+    margin: 2rem 0rem 2rem 1rem;
+}
+
+.user-input input {
+    border-radius: 5px;
+    border: 0.5px solid black;
+    padding: 0.3rem;
+}
