@@ -82,12 +82,33 @@ a {
     background: rgb(236, 3, 123);
 }
 
-.user-input {
+.odd-even-form {
     margin: 2rem 0rem 2rem 1rem;
 }
 
-.user-input input {
+.odd-even-form input {
     border-radius: 5px;
     border: 0.5px solid black;
     padding: 0.3rem;
+}
+
+.submit-button {
+    border: none;
+    background: green;
+    color: whitesmoke;
+    padding: 0.3rem 1.5rem;
+    margin-left: 1rem;
+    border-radius: 0.3rem;
+}
+
+.submit-button:hover {
+    transition: 0.2s ease;
+    transform: translatey(-10%);
+}
+
+.submit-button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
 }
