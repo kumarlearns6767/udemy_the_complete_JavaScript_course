@@ -132,3 +132,7 @@ let arr1 = [1, 2, 55, 67, 34];
 console.log(typeof (arr1));
 
 // difference between index.js and script.js?
+
+let z = 12;
+let d = 12;
+console.log("is z =12 ?", (z == d));
