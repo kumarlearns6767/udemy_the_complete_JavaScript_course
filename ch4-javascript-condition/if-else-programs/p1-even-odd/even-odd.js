@@ -10,7 +10,7 @@ function check() {
 	// selecting the ID of that tag then extracting the number from that ID using .value .
 	let num = document.getElementById('yearbyUser').value;
 	console.log(num);
-	if (isNaN(num)) {
+	if (isNaN(num) || num == "" || num === "") {
 		const errorText = document.getElementById('error-text');
 		errorText.innerHTML = "Invalid Entry !!!  Please Enter a Number and try Again !";
 		document.getElementById("return-value").innerText = "";
