@@ -54,3 +54,11 @@ console.log(namee + " power is " + my_power + "kg and his age is " + my_age);
 
 const _power__12 = 14; // more than 1 underscore can be used to declare variable and it is valid but,
 // let raju^%kalu = "sick"; special characters like % and ^ are not allowed for variable declarations and that is invalid.
+
+// 9) Var allows to declare same variable 2 times with same name but let does not allows that.
+// example - 
+
+var gigu = "avnish";
+var gigu = "rajesh"; // but here gigu is reassigned by "rajesh" value. 
+console.log(gigu);
+console.log(gigu);
