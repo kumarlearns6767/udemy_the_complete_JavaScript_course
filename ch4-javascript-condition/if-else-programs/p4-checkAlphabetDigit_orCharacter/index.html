@@ -4,7 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Even ODD Program</title>
+		<title>
+			Check check whether it is alphabet, digit or special character Program
+		</title>
 		<link rel="stylesheet" href="../../../style.css" />
 		<!-- Bootstrap Css- -->
 		<link
@@ -17,36 +19,46 @@
 		<main class="containere">
 			<div class="container-fluid">
 				<h1 class="chapter-heading">
-					Program 2 - Check if a yer is Leap Year or not in JavaScript.
+					Program 4 - Write a program to input any character and check whether
+					it is alphabet, digit or special character in JavaScript.
 				</h1>
 
 				<p class="global-para">
-					Visit script.js file to understand whats going on, and refersh the
-					page to run the program.
+					Please open console to see the output and visit script.js file to
+					understand whats going on.
 				</p>
 
+				<br />
 				<div class="odd-even-form">
 					<label>Please Enter a Number = </label>
-					<input type="text" name="UserInput" id="UserNumber" />
-					<button onclick="check()" class="submit-button">Submit</button>
+					<input type="text" name="UserInput" id="yearbyUser" />
+					<button onclick="alphabet()" class="submit-button">Submit</button>
+					<p id="error-text" class="error-text"></p>
 					<p class="return-text" id="return-value">Your Number is =</p>
 				</div>
 
 				<br />
 
 				<footer class="footer-container">
-					<a href="../p2-leapYear/index.html">
+					<a href="../../index.html">
 						<button class="previous-chapter-btn global-btn-prop">
-							Previous Program
+							Back to Ch4
 						</button>
 					</a>
-					<a href="../../index.html">
+					<a href="../p1-even-odd/index.html">
+						<button class="previous-chapter-btn global-btn-prop">
+							Back to Program 1
+						</button>
+					</a>
+					<a href="../../../index.html">
 						<button class="home-page-btn global-btn-prop">Home</button>
 					</a>
-					<a href="../leapYear/LeapYear.html">
-						<button class="next-chapter-btn global-btn-prop">Next Program</button>
+					<a href="../p3-check-abphabet-orNot/index.html">
+						<button class="next-chapter-btn global-btn-prop">
+							Next Program
+						</button>
 					</a>
-	
+
 					<select name="" id="chapter-list">
 						<option value="">Select Program</option>
 						<option value="">
@@ -65,6 +77,6 @@
 				</footer>
 			</div>
 		</main>
-		<script src="LeapYear.js"></script>
+		<script src="checkAlphabetDigit_orCharacter.js"></script>
 	</body>
 </html>
