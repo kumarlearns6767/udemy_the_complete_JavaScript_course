@@ -52,4 +52,8 @@ do {
 	digit2++;
 } while (digit2 <= 10);
 
-
+let i = 7;
+while (i <= 10) {
+	console.log(`i = ${i}`);
+	i++;
+}
