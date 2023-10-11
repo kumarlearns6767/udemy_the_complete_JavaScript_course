@@ -54,7 +54,7 @@ do {
 
 let i = 7;
 while (i <= 10) {
-	debugger;
+	// debugger;
 	console.log(`i = ${i}`);
 	i++;
 }
