@@ -23,6 +23,10 @@ function sum()
 
 sum(); // calling a function in order to use it.
 
+// Now, why do we need function and how to identify it? 
+// we need function because we do not either want to or to reduce out coding harrashment, to write the same code again and again. So, we create a function where that code is written and we call the function whenever we require that code.
+// We identify the function by seein '();' after the function name. Ex- 'alert();' is a function name. This alert(); function is pre-defined function and when we create a function then that iis User Defined function.
+
 // now what is the difference between function parameters and function arguments
 // arguments? Answer - 
 // Function parameters are the names listed in the function's definition. 
