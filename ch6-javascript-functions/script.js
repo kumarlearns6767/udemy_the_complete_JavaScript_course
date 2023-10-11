@@ -1,5 +1,7 @@
 "use strict";
 
+// Javascript Function
+
 // alert("Chapter 4 page is incomplete so please do not click \n on any of the program links as it may not work as expected. \n the Issue willbe fixed when lalit lands a job.");
 
 // A JavaScript function is a block of code
@@ -20,6 +22,10 @@ function sum()
 }
 
 sum(); // calling a function in order to use it.
+
+// Now, why do we need function and how to identify it? 
+// we need function because we do not either want to or to reduce out coding harrashment, to write the same code again and again. So, we create a function where that code is written and we call the function whenever we require that code.
+// We identify the function by seein '();' after the function name. Ex- 'alert();' is a function name. This alert(); function is pre-defined function and when we create a function then that iis User Defined function.
 
 // now what is the difference between function parameters and function arguments
 // arguments? Answer - 
