@@ -100,4 +100,104 @@ let funExp3 = function (s2, s3) { //no function name
 
 const substraction = funExp3(2028, 1998); // calling the function and assigning it to a variable name.
 
-console.log(`Substraction = ${substraction}`); 
+console.log(`Substraction = ${substraction}`);
+
+
+
+
+// --------------------- Arrow Functions -----------------------
+
+// Arrow functions are a more concise way to write functions in JavaScript. They were introduced in ECMAScript 6 (ES6) and have become a popular feature due to their simplicity and readability. Arrow functions are particularly useful for writing short, one-liner functions. I'll explain them in-depth with several examples in different scenarios.
+// Basic Arrow Function Syntax
+
+// The basic syntax of an arrow function is as follows:
+
+// javascript
+
+// (parameter1, parameter2, ...) => expression
+
+//     parameter1, parameter2, etc.: The parameters that the function takes (if any).
+//     expression: The single expression that the function evaluates and returns. This expression becomes the function's return value.
+
+// Example 1: A Simple Arrow Function
+
+// Here's a basic example of an arrow function that takes two parameters and returns their sum:
+
+// javascript
+
+// const add = (a, b) => a + b;
+// console.log(add(5, 3)); // Output: 8
+
+// Example 2: Arrow Function with No Parameters
+
+// Arrow functions can also be used with no parameters. Here's an example of an arrow function that returns a constant value:
+
+// javascript
+
+// const greet = () => "Hello, world!";
+// console.log(greet()); // Output: Hello, world!
+
+// Example 3: Arrow Function with a Single Parameter
+
+// When there's only one parameter, you can omit the parentheses around the parameter:
+
+// javascript
+
+// const double = number => number * 2;
+// console.log(double(6)); // Output: 12
+
+// Example 4: Using Arrow Functions as Callbacks
+
+// Arrow functions are commonly used as callback functions for methods like map, filter, and forEach when you need to perform an operation on each element of an array:
+
+// javascript
+
+// const numbers = [1, 2, 3, 4, 5];
+// const doubled = numbers.map(number => number * 2);
+// console.log(doubled); // Output: [2, 4, 6, 8, 10]
+
+// Example 5: Arrow Functions in Object Methods
+
+// Arrow functions can be used as methods in objects. However, note that arrow functions do not have their own this context; they inherit the this value from the surrounding code. This behavior can be both an advantage and a limitation, depending on the use case.
+
+// javascript
+
+// const person = {
+//   name: "Alice",
+//   sayHello: () => {
+//     console.log(`Hello, my name is ${this.name}`);
+//   }
+// };
+// person.sayHello(); // Output: Hello, my name is undefined
+
+// In this case, the arrow function doesn't have access to the name property of the person object because it uses the global this context.
+// Example 6: Arrow Functions vs. Regular Functions
+
+// Arrow functions and regular functions have some differences. Regular functions have their own this context, whereas arrow functions inherit the this from their surrounding code. This can lead to different behavior in certain situations:
+
+// javascript
+
+// function greetRegular() {
+//   console.log(`Hello, my name is ${this.name}`);
+// }
+
+// const person1 = {
+//   name: "Bob",
+//   greet: greetRegular
+// };
+
+// const person2 = {
+//   name: "Alice",
+//   greet: () => {
+//     console.log(`Hello, my name is ${this.name}`);
+//   }
+// };
+
+// person1.greet(); // Output: Hello, my name is Bob
+// person2.greet(); // Output: Hello, my name is undefined
+
+// In the example above, person1.greet is a regular function and has access to the name property of the object. In contrast, person2.greet is an arrow function and uses the global this, resulting in an undefined name.
+
+// It's important to choose the appropriate function type based on the specific requirements and the context in which you're using the function. Arrow functions are great for many scenarios, but you should be aware of their behavior with this when using them in object methods.
+
+// Overall, arrow functions are a powerful feature in JavaScript that can help you write more concise and readable code, especially for short functions and callback functions.
