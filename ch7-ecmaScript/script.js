@@ -45,6 +45,11 @@ console.log(`In 2015, ECMAScript decided to switch to regular release and ES6 wa
 // 31) Object entries
 // 32) JavaScript Modules
 
+// *** The Below explanation order is taken from Thapa Technical Javascript course on Youtube. So, Please don't complain. ***
+
+
+// ----------  Here are the ES6 features and dunction explained below -----------
+
 // 1) let and cost are already explain in ch1 but var is valid inside function(function scope) and let,const is valid in the declared block.
 
 // 2) template litera/string I already know.
