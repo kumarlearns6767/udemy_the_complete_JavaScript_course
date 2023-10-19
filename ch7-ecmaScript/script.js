@@ -60,8 +60,9 @@ function mu(sd, dc) {
     // without catching/storing, 
     // how it is getting printed in console.log() ?
 }
+console.log(mu(5)); // here we are providing the values to sd and dc but what if any of them get no value?
+// It returns NaN because no value was passed and number cannot be multiplied with empty value so Nan is returned.
 
-console.log(mu(5, 2)); // here we are providing the values to sd and dc but what if any of them get no value?
 // In that case we assign a default value to or parameter like this - 
 function yamaha(mileage = 24, capacity = 12) {
     return mileage * capacity;
