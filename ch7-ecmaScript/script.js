@@ -77,6 +77,16 @@ function yamaha(mileage = 24, capacity = 12) {
 console.log(yamaha()); // no value provided so default values will be printed.
 
 
+// Another example for practise-
+
+function sub(xx, yz = 2) { // we initialized yz with a default value to prevent NaN error
+    return xx - yz;
+}
+
+console.log(`the substraction = ${sub(10)}`); // no value provided for yz so default value will ve taken for use.
+
+
+
 // 4) Arrow Function -
 // Arrow functions{ 
 // '()=>' 
@@ -85,14 +95,17 @@ console.log(yamaha()); // no value provided so default values will be printed.
 // functions were introduced in the ES6 version.
 // They make our code more structured and readable.  Example -
 
-const average = () => { // fuction is decalred and initialized.
-    let numm1 = 12, numm2 = 32, dum, avg;
-    dum = numm1 + numm2;
-    avg = dum / 2;
-    return (`The average of ${numm1} and ${numm2} = ${avg}`)
+let divi = () => {
+    let var1 = parseInt(prompt('Enter the 1st number = '));
+    let var2 = parseInt(prompt('Enter the 2nd number = '));
+    let dib;
+    if (isNaN(var1) || isNaN(var2)) {
+        alert('Please enter a number !!');
+    } else {
+        alert(dib = var1 / var2);
+    }
 }
-
-console.log(average());
+divi();
 
 
 // 5) Destructuring -
