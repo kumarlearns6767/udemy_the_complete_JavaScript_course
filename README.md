@@ -32,6 +32,7 @@ Links Disclaimer -
 The Entire project uses Grabify Links to tract users done for identify purpose. The Data is not store by Lalit himsedf but Grabify does stores data about the users who clicks on any of the links. Please refer to their privacy policy of Grabify before using the live hosted links.
 
 Resources-
+The Learning of Jabascript is done in combination of 3 youtube channels- Thapa Technical, Tech Gun and one other channel. The chapter orders are listed below -
 
 1. From ch1 to ch8, the order of chapter is taken from thapa technical youtube channel.
 2. ch9 added from tech gun youtube channel.
