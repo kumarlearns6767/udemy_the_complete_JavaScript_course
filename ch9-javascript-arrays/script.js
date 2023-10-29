@@ -6,7 +6,7 @@
 // JavaScript Array is a single variable that is used to store
 // elements of different data types. JavaScript arrays are zero-indexed.
 // The Javascript Arrays are not associative in nature.
-// Arrays are used when we have a list of items.
+// Arrays are used when we have a list of items annd we need to store then in one variable.
 
 // Syntax - 
 
@@ -16,6 +16,8 @@ let arrayname = ['name1', 'name2', 'name3'];
 
 // using new keyword - 
 
+
+// I need to take a deep dive in this concept of array for new keyword because I forgot this everytime.
 let arrName = new Array(3);
 
 arrName[0] = 10;
