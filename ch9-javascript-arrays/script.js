@@ -2,6 +2,7 @@
 
 // Javascript Arrays.
 
+
 // What is Javascript Array ?
 // JavaScript Array is a single variable that is used to store
 // elements of different data types. JavaScript arrays are zero-indexed.
@@ -31,6 +32,16 @@ console.log(`Name of array = ${arrName}`);
 let arrName2 = new Array(12, 15, 'lalu');
 
 console.log(`Name of 2nd array = ${arrName2}`);
+
+
+// Understanding the basics of array - 
+
+let myFriends = ['vinod', 'swati', 'komal', 'raju']; // declared an array named "myFrineds[]";
+// now, the data inside the array are called elements. Which means 'vinod', 'swati' are one single elements.
+// The First Element 'vinod' is called Lower Index/Lower Boundary 
+// And Last Element 'raju' is called Upper Index/Upper Boundary.
+// Index in Array starts from 0 so indexof(vinod) is 0.
+
 
 // Increase and decrease the length of an array
 
