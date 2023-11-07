@@ -50,3 +50,11 @@ let con3 = "5" - 11;
 console.log(`Final result after 2nd Automatic Type conversion = ${con3}`);
 
 // In the above example, ' "5" ' is substracted to 11 which is not possible technically because "5" is string and 11 is number and "5" must be converted to number to do that and this will throw error in other programming languages but here in Javascript, it converts "5" to Number datatype which is called "type coercion".
+
+// 4th example - 
+let con4 = "5" * 12;
+let con5 = "5" + 5;
+console.log(`Final result after 3rd Automatic Type conversion = ${con4}`);
+console.log(`Final result after 4th Automatic Type conversion = ${con5}`);
+
+// In the above example, ' "5" ' is mumtiplied to 12 which is not possible technically because "5" is string and 12 is number and "5" must be converted to number to do that and this will throw error in other programming languages but here in Javascript, it converts "5" to Number datatype which is called "type coercion".   But, we can clearly see that when we try to add "5" with 5 then it converts the number 5 into string 5 and concatinates both of them forming 55 as result. This happens because  that is the default behaviour of javascript.
