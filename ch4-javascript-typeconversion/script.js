@@ -18,3 +18,11 @@ let number = 12, nam = 'lalu', decesion = true, andnumber2 = 12.88;
 console.log(`typeof number = ${typeof number}, typeof nam = ${typeof nam}, typeof decesion = ${typeof decesion}, typeof andnumber2 = ${typeof andnumber2}`);
 
 // In above example we demostrated that how 'typeof operator' is used to identify the type of a variable.
+
+//typeof() function -
+// The TypeOf function is an important tool when dealing with complex code. It allows a programmer to quickly check a variable's data type—or whether it's “undefined” or “null”—without going through the code line by line! Additionally, the TypeOf function can also check whether an operand is an object or not.
+
+// Example - 
+const numbe = 12, namm = 'lalu', dece = true, andnum = 12.88;
+
+console.log(`typeof number = ${typeof (numbe)}, typeof nam = ${typeof (namm)}, typeof decesion = ${typeof (dece)}, typeof andnumber2 = ${typeof (andnum)}`);
