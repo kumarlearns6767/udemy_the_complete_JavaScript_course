@@ -26,3 +26,15 @@ console.log(`typeof number = ${typeof number}, typeof nam = ${typeof nam}, typeo
 const numbe = 12, namm = 'lalu', dece = true, andnum = 12.88;
 
 console.log(`typeof number = ${typeof (numbe)}, typeof nam = ${typeof (namm)}, typeof decesion = ${typeof (dece)}, typeof andnumber2 = ${typeof (andnum)}`);
+
+// Automatic Type conversion -
+// When we do any operation and if javascript is capable to understand that and needs to convert type of datatype in order to complete the operation then, javascript "automatically converts type of that datatype using it's intelligence". This is called "Automatic Type conversion".
+
+// Example - 
+
+let conversion = 5 + null;  // how null is converted from onject to number datatype ?
+console.log(`Final result after Automatic Type conversion  = ${conversion}`);
+
+// In the above example, "5" is added to "null" which is not possible technically because null means nothing and this will throw error in other programming languages but here in Javascript, it converts "null" to "0" so, 5+0 = 5;
+
+alert(typeof null);  
