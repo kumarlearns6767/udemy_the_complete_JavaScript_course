@@ -58,3 +58,22 @@ console.log(`Final result after 3rd Automatic Type conversion = ${con4}`);
 console.log(`Final result after 4th Automatic Type conversion = ${con5}`);
 
 // In the above example, ' "5" ' is mumtiplied to 12 which is not possible technically because "5" is string and 12 is number and "5" must be converted to number to do that and this will throw error in other programming languages but here in Javascript, it converts "5" to Number datatype which is called "type coercion".   But, we can clearly see that when we try to add "5" with 5 then it converts the number 5 into string 5 and concatinates both of them forming 55 as result. This happens because  that is the default behaviour of javascript.
+
+
+// Type conversion using predefined Function - 
+
+// String() function - 
+let type = 4;
+console.log(`Type of type = ${typeof (type)}`);
+let newType = String(type);
+console.log(`Type of newType = ${typeof (newType)}`);
+
+// Boolean() function - 
+let type2 = 4;
+console.log(`Type of type2 = ${typeof (type2)}`);
+let newType2 = Boolean(type2);
+console.log(`Type of newType2 = ${typeof (newType2)}`);
+
+// Number() Function is same as others so not doing any demo.
+
+
