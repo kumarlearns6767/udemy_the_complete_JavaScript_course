@@ -134,3 +134,4 @@ let original = "Hello my name is Lalu and I am learning Javascript";
 
 console.log(original.substring(6, 21));
 // This function will cut from the starting index to the ending index. Ending index should be n-1 and starting should be n+1.
+
