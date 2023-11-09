@@ -13,8 +13,8 @@ public class doubt {
         System.out.println("Single backslash n does not works with Backticks i javascript.");
         System.out.println("\n");
         System.out.println("Chapter 3 - line no 54.");
+        System.out.println("\n Chapter 4 - line no 35 null,");
         System.out.println("\n Chapter 5 - line no 66 - Function Expression with return keyword.");
-        System.out.println("\n Chapter 6 - line no 24, 58.");
-        System.out.println("\n Chapter 6 - line no 96.");
+        System.out.println("\n");
     }
 }
