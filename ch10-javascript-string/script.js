@@ -109,3 +109,28 @@ console.log(typeof a1); // "string"
 console.log(typeof b1); // "object"
 
 // Note: It is recommended to avoid using string objects. Using string objects slows down the program.
+
+
+// Javascript String Concatination - 
+// String concatenation means joing two or more stings together. Ths can be done by using '+' operator or by using concat(). For example,
+
+// Using '+' operator - 
+let str = "my name ";
+let str2 = "is lalu";
+console.log(str + str2);
+
+// Using concat() method -
+const str3 = "Hello";
+const result2 = str3.concat(" World");
+console.log(result2); // Output: Hello World
+
+
+// String extraction using substr() method -
+
+// What is a substring() method? 
+// The substring() method extracts characters, between two indices (positions), from a string, and returns the substring. The substring() method extracts characters from start to end (exclusive). The substring() method does not change the original string. For example,
+
+let original = "Hello my name is Lalu and I am learning Javascript";
+
+console.log(original.substring(6, 21));
+// This function will cut from the starting index to the ending index. Ending index should be n-1 and starting should be n+1.
