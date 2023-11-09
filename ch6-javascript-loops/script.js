@@ -11,7 +11,7 @@
 // afterthought) statement.
 
 // Example -
-// Print the table of 8 using for loop - 
+// Print the table of 8 using for loop -
 
 let k;
 console.log(`\n Table of 8 =`);
@@ -38,9 +38,9 @@ while (digit <= 10) {
 console.log("\n\n");
 
 // *** Do While Loop ***
-// The do...while statement creates a loop that executes a 
-// specified statement until the test condition evaluates to false. 
-// The condition is evaluated after executing the statement, 
+// The do...while statement creates a loop that executes a
+// specified statement until the test condition evaluates to false.
+// The condition is evaluated after executing the statement,
 //  in the specified statement executing at least once.
 
 // Example -
@@ -58,3 +58,28 @@ while (i <= 10) {
 	console.log(`i = ${i}`);
 	i++;
 }
+
+// *** for ... in ***
+// JavaScript for-in loop is used to iterate/loop over the properties of an object. JavaScript for-in loop iterates only over those keys of an object which have their enumerable property set to “true”. The key values in an object have four attributes (value, writable, enumerable, and configurable).
+
+// JavaScript for-in loop are mainly used on objects not on arrays and it returns index numbers rather than values of an array.
+
+// Example -
+
+// here we are javascript objects whoch we have not read till now, so please read about objects in google before understanding for...in loop.
+
+const courses = ["lalu", "raju", "shetal", "dino", "bipasha"];
+
+for (let element in courses) {
+	console.log(courses[element]); // to print the values inside the array.
+}
+
+for (let element in courses) {
+	console.log(element); // to print the index of elemets inside the array.
+}
+
+for (let element in courses) {
+	console.log(element[courses]); // this will throw undefined.
+}
+
+// now trying with objects -
