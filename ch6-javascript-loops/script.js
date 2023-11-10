@@ -82,4 +82,20 @@ for (let element in courses) {
 	console.log(element[courses]); // this will throw undefined.
 }
 
+console.log("\n\n");
+
 // now trying with objects -
+
+const courses2 = {
+	firstCourse: "JavaScript",
+	secondCourse: "React",
+	thirdCourse: "Angular",
+};
+
+for (let key in courses2) {
+	console.log(key); // to print the name or key of the object 'courses2'.
+}
+
+for (let key in courses2) {
+	console.log(courses2); // This will print the key and their properties of the object 'courses2'.
+}
