@@ -59,7 +59,7 @@ while (i <= 10) {
 	i++;
 }
 
-// *** for ... in ***
+// *** for ... in Loop ***
 // JavaScript for-in loop is used to iterate/loop over the properties of an object. JavaScript for-in loop iterates only over those keys of an object which have their enumerable property set to “true”. The key values in an object have four attributes (value, writable, enumerable, and configurable).
 
 // JavaScript for-in loop are mainly used on objects not on arrays and it returns index numbers rather than values of an array.
@@ -90,6 +90,11 @@ const courses2 = {
 	firstCourse: "JavaScript",
 	secondCourse: "React",
 	thirdCourse: "Angular",
+	fourthcourse: {
+		comp: "react.js",
+		science: "physics",
+		lab: "chemistry:",
+	},
 };
 
 for (let key in courses2) {
@@ -98,4 +103,32 @@ for (let key in courses2) {
 
 for (let key in courses2) {
 	console.log(courses2); // This will print the key and their properties of the object 'courses2'.
+}
+
+for (let key in courses2) {
+	console.log(key[courses2]); // This will print undefined.
+}
+
+for (let key in courses2) {
+	console.log(courses2[key]); // This will print the properties / values of the key in the onject 'courses2'.
+}
+
+for (let key in courses2) {
+	console.log(courses2.fourthcourse[key]); // This will print the properties / values of the key in the onject 'courses2'.
+}
+
+// *** for ... of Loop ***
+// A for...of loop operates on the values sourced from an iterable one by one in sequential order. Each operation of the loop on a value is called an iteration, and the loop is said to iterate over the iterable. Each iteration executes statements that may refer to the current sequence value.
+// for ... of Loop is mainly used on arrays rather than objects and it returns the actual value of an array. For example,
+
+const bikes = {
+	honda: "cbr650r",
+	kawasaki: "ninja 650",
+	bmw: "g310rr",
+	tvs: "apache rr310",
+	tvs: "apache rtr310",
+};
+
+for (let keys of bikes) {
+	console.log(bikes);
 }
