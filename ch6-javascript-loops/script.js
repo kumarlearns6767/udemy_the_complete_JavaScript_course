@@ -121,14 +121,17 @@ for (let key in courses2) {
 // A for...of loop operates on the values sourced from an iterable one by one in sequential order. Each operation of the loop on a value is called an iteration, and the loop is said to iterate over the iterable. Each iteration executes statements that may refer to the current sequence value.
 // for ... of Loop is mainly used on arrays rather than objects and it returns the actual value of an array. For example,
 
-const bikes = {
-	honda: "cbr650r",
-	kawasaki: "ninja 650",
-	bmw: "g310rr",
-	tvs: "apache rr310",
-	tvs: "apache rtr310",
-};
+// const bikes = {
+// 	honda: "cbr650r",
+// 	kawasaki: "ninja 650",
+// 	bmw: "g310rr",
+// 	tvs: "apache rr310",
+// 	tvs: "apache rtr310",
+// };
 
-for (let keys of bikes) {
-	console.log(bikes);
-}
+// for (let keys of bikes) {
+// 	console.log(bikes); // for of will not work on object because it is not iterable / loopable. It needs array.
+// }
+
+let bikes = ["bmw g310rr"];
+// this loop is incomplete becacus of lack of time.
