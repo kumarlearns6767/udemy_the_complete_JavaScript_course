@@ -55,6 +55,13 @@ let myFriends = ["vinod", "swati", "komal", "raju"]; // declared an array named 
 // And Last Element 'raju' is called Upper Index/Upper Boundary.
 // Index in Array starts from 0 so indexof(vinod) is 0.
 
+// to check the length of an array
+// We check the length of an array using length() method in javascript. Example -
+
+let enemies = ["poulov", "suman", "sneha", "aslesha", "arg"];
+
+console.log(`Total length of the array is = ${enemies.length}`);
+
 // Increase and decrease the length of an array
 
 // We can increase and decrease the length of an array using the Javascript’s length property.
@@ -80,8 +87,20 @@ console.log("Array after decreased length: ", courses);
 // Traversal Array -  Instead of having to perform an action for each item in an array individually,
 // loops allow us to repeat the action a selected number of times. example -
 
-let enemies = ["poulov", "suman", "sneha", "aslesha", "arg"];
-
 console.log(`One of my enemy = ${enemies[2]}`);
 
-// to check the length of an array
+// Adding elements to the array. Also, adding last element to the array-
+
+enemies.push("abhishek"); // this will add the element to the array.
+// This is the same process for adding the last element to the array.
+
+console.log("New array =");
+console.log(enemies);
+// So, push is used to add the element to the array.
+
+// Adding elements to the start index of the array -
+
+enemies.unshift("rumela ganguli");
+console.log("New array =");
+console.log(enemies);
+// So, unshift is used to add the element at the start index of the array.
