@@ -104,3 +104,15 @@ enemies.unshift("rumela ganguli");
 console.log("New array =");
 console.log(enemies);
 // So, unshift is used to add the element at the start index of the array.
+
+// Removing last element from the array -
+
+enemies.pop();
+console.log(`New array with last element removed = `);
+console.log(enemies);
+//  By using pop(), we can remove the last element from the array.
+
+//  Removing the 1st element from the array -
+enemies.shift();
+console.log(`New array with first element removed =`);
+console.log(enemies);
