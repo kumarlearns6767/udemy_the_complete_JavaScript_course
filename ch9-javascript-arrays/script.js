@@ -116,3 +116,41 @@ console.log(enemies);
 enemies.shift();
 console.log(`New array with first element removed =`);
 console.log(enemies);
+// By using shift(), we can remove the first element from the array.
+
+// to check if the variable data type is array or not -
+console.log(Array.isArray(enemies));
+
+// Exact words from string as an array -
+let newString = "This is a string going to be convered.";
+let extractedArray = newString.split(" "); // We removed the spaces from the string and extracted the remaning words as array.
+console.log(extractedArray);
+
+// Now, extracting words using a single character-
+let newArray2 = newString.split("s");
+console.log(newArray2);
+
+// ****** Multi Dimensional Array ******
+// There are multi-dimensional arrays in Javascript. A multidimensional array is an array of arrays. Multidimensional arrays are useful when you want to store data as a tabular form, like a table with rows and columns.
+
+// This is how multi-dimensional array is created in javascript -
+
+let usersInfo = [
+	[
+		"Sneha",
+		"Shreya",
+		"Arup",
+		"Priyanka",
+		"Vinit",
+		"Vanshika",
+		"Olyvia",
+		["chatterjee", "bogopaddhayai", "grop", "singh", "verma", "Cornelo"],
+	],
+	[true, false, true, true, false, true, false, true],
+	[21, 29, 26, 23, 25, 19, 24],
+];
+// In th main array, 1st array contains user names,
+// 2nd array contains is user is logged in? true or false,
+// 3rd array contains user age.
+
+// Accessing the multi-dimensional array -
