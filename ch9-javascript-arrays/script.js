@@ -154,3 +154,17 @@ let usersInfo = [
 // 3rd array contains user age.
 
 // Accessing the multi-dimensional array -
+
+const surName = usersInfo[0][1][0];
+console.log(`Surname = ${surName}`);
+
+let i, j, k;
+for (i = 0; i < usersInfo.length; i++) {
+	// let count = 0;
+	2; // count++;
+	console.log(`Main external Array = ${usersInfo[i]}`);
+	for (j = 0; j <= usersInfo.length; j++) {
+		console.log(`2nd external Array = ${usersInfo[i][j]}`);
+	}
+}
+// Output is not as expected. Will troubleshoot later.
