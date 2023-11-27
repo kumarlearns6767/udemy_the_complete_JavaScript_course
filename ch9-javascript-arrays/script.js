@@ -136,18 +136,18 @@ console.log(newArray2);
 // This is how multi-dimensional array is created in javascript -
 
 let usersInfo = [
-	[
-		"Sneha",
-		"Shreya",
-		"Arup",
-		"Priyanka",
-		"Vinit",
-		"Vanshika",
-		"Olyvia",
-		["chatterjee", "bogopaddhayai", "grop", "singh", "verma", "Cornelo"],
-	],
-	[true, false, true, true, false, true, false, true],
-	[21, 29, 26, 23, 25, 19, 24],
+  [
+    "Sneha",
+    "Shreya",
+    "Arup",
+    "Priyanka",
+    "Vinit",
+    "Vanshika",
+    "Olyvia",
+    ["chatterjee", "bogopaddhayai", "grop", "singh", "verma", "Cornelo"],
+  ],
+  [true, false, true, true, false, true, false, true],
+  [21, 29, 26, 23, 25, 19, 24],
 ];
 // In th main array, 1st array contains user names,
 // 2nd array contains is user is logged in? true or false,
@@ -155,16 +155,22 @@ let usersInfo = [
 
 // Accessing the multi-dimensional array -
 
-const surName = usersInfo[0][1][0];
+//usersInfo[0][7] = ["chatterjee", "bogopaddhayai", "grop", "singh", "verma", "Cornelo"]
+const surName = usersInfo[0][7][0];
 console.log(`Surname = ${surName}`);
 
 let i, j, k;
 for (i = 0; i < usersInfo.length; i++) {
-	// let count = 0;
-	2; // count++;
-	console.log(`Main external Array = ${usersInfo[i]}`);
-	for (j = 0; j <= usersInfo.length; j++) {
-		console.log(`2nd external Array = ${usersInfo[i][j]}`);
-	}
+  // let count = 0;
+  // count++;
+  console.log(`Main external Array = ${usersInfo[i]}`);
+  for (j = 0; j < usersInfo[i].length; j++) {
+    console.log(`2nd external Array = ${usersInfo[i][j]}`);
+  }
+  for (k = 0; k < usersInfo[i][usersInfo[i].length - 1].length; k++) {
+    console.log(
+      `3rd external Array = ${usersInfo[i][usersInfo[i].length - 1][k]}`
+    );
+  }
 }
 // Output is not as expected. Will troubleshoot later.
