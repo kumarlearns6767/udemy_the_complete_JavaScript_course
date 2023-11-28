@@ -168,3 +168,71 @@ for (i = 0; i < usersInfo.length; i++) {
 	}
 }
 // Output is not as expected. Will troubleshoot later.
+
+// Challange time-
+// Add 'Dec'at the end of an array, then what is the return value of "splice method?", then update 'march' to 'March' and Delete 'June' from that array.
+// here is the array = months = [Jan, Mar, Apr, Jun, Jul,].
+
+const months = ["Jan", "Mar", "Apr", "Jun", "Jul"];
+months.splice(5, 0, "Dec");
+console.log(months);
+months.splice(1, 1, "March");
+console.log(months);
+months.splice(3, 1);
+console.log(months);
+
+// indexOf method -
+// This method is used to find the index of a string or element in the array.
+// Example -
+
+// Searching for a substring in a string: You can use indexOf() to find the first occurrence of a substring within a string. For example, the following code finds the first occurrence of the substring "world" in the string "Hello, world!":
+
+const str2 = "Hello, world!";
+const indexx = str2.indexOf("world");
+console.log(indexx); // Output: 7
+
+//     Checking if a value exists in an array: You can use indexOf() to check if a value exists in an array. If the value is found, indexOf() will return the index of the first occurrence of the value. If the value is not found, indexOf() will return -1. For example, the following code checks if the number 3 exists in the array [1, 2, 3, 4, 5]:
+
+const numbers = [1, 2, 3, 4, 5];
+const indexx2 = numbers.indexOf(3);
+console.log(indexx2); // Output: 2
+
+// Finding the position of a character in a string: You can use indexOf() to find the position of a character in a string. For example, the following code finds the position of the first occurrence of the character 'l' in the string "Hello":
+
+const str = "Hello";
+const index = str.indexOf("l");
+console.log(index); // Output: 2
+
+// Check programs folders for chalenge.
+
+// Callback functions for forEach() -
+// A callback function in programming is a function that is passed as an argument to another function, and it is intended to be executed after a specific task or event occurs. It's a way to provide a piece of code (the callback) that will be called back later, often asynchronously.
+
+// In simpler terms, imagine you're asking someone to do a task for you, and you provide them with specific instructions on what to do once they finish. In programming, the task is an operation or an event, and the instructions are the callback function.
+
+// Here's a basic example in JavaScript:
+
+function performTask(task, callback) {
+	// Perform the task
+	console.log("Performing task: " + task);
+
+	// After the task is done, execute the callback
+	callback();
+}
+
+// Define a callback function
+function callbackFunction() {
+	console.log("Task completed!");
+}
+
+// Use performTask with the callback
+performTask("A", callbackFunction);
+
+// In this example:
+
+//     performTask is a function that takes a task and a callback function as parameters.
+//     It performs the specified task (in this case, just logging a message) and then calls the provided callback function.
+
+// The callbackFunction is the callback passed to performTask. It gets executed after the task is completed.
+
+// This pattern is commonly used in scenarios like asynchronous operations, event handling, and functions that require some time to complete. The callback allows you to specify what should happen next once a particular task or event is finished.
