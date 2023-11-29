@@ -136,18 +136,18 @@ console.log(newArray2);
 // This is how multi-dimensional array is created in javascript -
 
 let usersInfo = [
-  [
-    "Sneha",
-    "Shreya",
-    "Arup",
-    "Priyanka",
-    "Vinit",
-    "Vanshika",
-    "Olyvia",
-    ["chatterjee", "bogopaddhayai", "grop", "singh", "verma", "Cornelo"],
-  ],
-  [true, false, true, true, false, true, false, true],
-  [21, 29, 26, 23, 25, 19, 24],
+        [
+          "Sneha",
+          "Shreya",
+          "Arup",
+          "Priyanka",
+          "Vinit",
+          "Vanshika",
+          "Olyvia",
+          ["chatterjee", "bogopaddhayai", "grop", "singh", "verma", "Cornelo"],
+        ],
+        [true, false, true, true, false, true, false, true],
+        [21, 29, 26, 23, 25, 19, 24],
 ];
 // In th main array, 1st array contains user names,
 // 2nd array contains is user is logged in? true or false,
