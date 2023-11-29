@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // Javascript Arrays.
 
@@ -12,7 +12,7 @@
 
 // let arrayName = [value1, value2, ...];
 
-let arrayname = ['name1', 'name2', 'name3'];
+let arrayname = ["name1", "name2", "name3"];
 
 // using new keyword -
 
@@ -20,14 +20,14 @@ let arrayname = ['name1', 'name2', 'name3'];
 let arrName = new Array(3);
 
 arrName[0] = 10;
-arrName[1] = '12';
+arrName[1] = "12";
 arrName[2] = 15;
 
 console.log(`Name of array = ${arrName}`);
 
 // or
 
-let arrName2 = new Array(12, 15, 'lalu');
+let arrName2 = new Array(12, 15, "lalu");
 
 console.log(`Name of 2nd array = ${arrName2}`);
 
@@ -49,7 +49,7 @@ console.log(`Name of 2nd array = ${arrName2}`);
 
 // Understanding the basics of array -
 
-let myFriends = ['vinod', 'swati', 'komal', 'raju']; // declared an array named "myFrineds[]";
+let myFriends = ["vinod", "swati", "komal", "raju"]; // declared an array named "myFrineds[]";
 // now, the data inside the array are called elements. Which means 'vinod', 'swati' are one single elements.
 // The First Element 'vinod' is called Lower Index/Lower Boundary
 // And Last Element 'raju' is called Upper Index/Upper Boundary.
@@ -58,7 +58,7 @@ let myFriends = ['vinod', 'swati', 'komal', 'raju']; // declared an array named 
 // to check the length of an array
 // We check the length of an array using length() method in javascript. Example -
 
-let enemies = ['poulov', 'suman', 'sneha', 'aslesha', 'arg'];
+let enemies = ["poulov", "suman", "sneha", "aslesha", "arg"];
 
 console.log(`Total length of the array is = ${enemies.length}`);
 
@@ -66,11 +66,11 @@ console.log(`Total length of the array is = ${enemies.length}`);
 
 // We can increase and decrease the length of an array using the Javascript’s length property.
 
-const courses = ['HTML', 'CSS', 'Javascript'];
+const courses = ["HTML", "CSS", "Javascript"];
 courses.length = 5; // Increasing array length to 5
-console.log('Array after increased length: ', courses);
+console.log("Array after increased length: ", courses);
 courses.length = 2; // Decreasing array length to 2
-console.log('Array after decreased length: ', courses);
+console.log("Array after decreased length: ", courses);
 
 // Output
 
@@ -91,17 +91,17 @@ console.log(`One of my enemy = ${enemies[2]}`);
 
 // Adding elements to the array. Also, adding last element to the array-
 
-enemies.push('abhishek'); // this will add the element to the array.
+enemies.push("abhishek"); // this will add the element to the array.
 // This is the same process for adding the last element to the array.
 
-console.log('New array =');
+console.log("New array =");
 console.log(enemies);
 // So, push is used to add the element to the array.
 
 // Adding elements to the start index of the array -
 
-enemies.unshift('rumela ganguli');
-console.log('New array =');
+enemies.unshift("rumela ganguli");
+console.log("New array =");
 console.log(enemies);
 // So, unshift is used to add the element at the start index of the array.
 
@@ -122,12 +122,12 @@ console.log(enemies);
 console.log(Array.isArray(enemies));
 
 // Exact words from string as an array -
-let newString = 'This is a string going to be convered.';
-let extractedArray = newString.split(' '); // We removed the spaces from the string and extracted the remaning words as array.
+let newString = "This is a string going to be convered.";
+let extractedArray = newString.split(" "); // We removed the spaces from the string and extracted the remaning words as array.
 console.log(extractedArray);
 
 // Now, extracting words using a single character-
-let newArray2 = newString.split('s');
+let newArray2 = newString.split("s");
 console.log(newArray2);
 
 // ****** Multi Dimensional Array ******
@@ -137,14 +137,14 @@ console.log(newArray2);
 
 let usersInfo = [
   [
-    'Sneha',
-    'Shreya',
-    'Arup',
-    'Priyanka',
-    'Vinit',
-    'Vanshika',
-    'Olyvia',
-    ['chatterjee', 'bogopaddhayai', 'grop', 'singh', 'verma', 'Cornelo'],
+    "Sneha",
+    "Shreya",
+    "Arup",
+    "Priyanka",
+    "Vinit",
+    "Vanshika",
+    "Olyvia",
+    ["chatterjee", "bogopaddhayai", "grop", "singh", "verma", "Cornelo"],
   ],
   [true, false, true, true, false, true, false, true],
   [21, 29, 26, 23, 25, 19, 24],
