@@ -236,3 +236,59 @@ performTask("A", callbackFunction);
 // The callbackFunction is the callback passed to performTask. It gets executed after the task is completed.
 
 // This pattern is commonly used in scenarios like asynchronous operations, event handling, and functions that require some time to complete. The callback allows you to specify what should happen next once a particular task or event is finished.
+
+// *****  forEach method *****
+// The forEach method is an array method in JavaScript that allows you to iterate over the elements of an array. It executes a provided function once for each array element in ascending order. The purpose of forEach is to simplify the process of iterating over arrays and applying a function to each element.
+
+// Here's the basic syntax of forEach:
+
+// array.forEach(function(element, index, array) {
+// Code to be executed for each element
+// });
+
+//     element: The current element being processed in the array.
+//     index: The index of the current element being processed.
+//     array: The array on which forEach was called.
+
+// Here's a simple example:
+
+let num = [1, 2, 3, 4];
+
+num.forEach(function (element, index) {
+	console.log(`Element at index ${index}: ${element}`);
+});
+
+// Output:
+
+// mathematica
+
+// Element at index 0: 1
+// Element at index 1: 2
+// Element at index 2: 3
+// Element at index 3: 4
+
+// In this example, the forEach method is used to iterate over the numbers array. The callback function provided to forEach is executed for each element, logging the element and its index to the console.
+
+// Key points about forEach:
+
+//     Simplicity: It simplifies the process of iterating over arrays compared to using traditional for loops.
+
+//     Readability: The use of forEach can make your code more readable and expressive, especially when the logic inside the loop is concise.
+
+//     Avoiding Manual Indexing: You don't need to manually manage array indices; forEach takes care of it for you.
+
+//     Return Value: The forEach method doesn't return a new array. It always returns undefined. If you want to create a new array based on the original one, you might consider using methods like map.
+
+// Here's an example demonstrating the use of forEach to double each element in an array:
+
+let num3 = [1, 2, 3, 4];
+let doubledNumbers = [];
+
+num3.forEach(function (element) {
+	doubledNumbers.push(element * 2);
+});
+
+console.log(doubledNumbers);
+// Output: [2, 4, 6, 8]
+
+// In this case, the callback function is used to double each element and push the result into a new array (doubledNumbers).
