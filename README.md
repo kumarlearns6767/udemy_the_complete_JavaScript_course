@@ -26,14 +26,19 @@ How to download this project in your Local Computer and run it ?
 
 > Now see the videos chapter wise, check the script.js in every chapter, read my personal notes and try to understand what is taugh in that specific chapter.
 
-Copyright Information -
+**Copyright Information -**
+
 Though the Source Code is Open and you are allowed to download it for Learning Purpose but, you are not allowed to modify the code, reuse the code for your own benifit and build some thing which can returrn you money or start a SaaS Product using this Project. Doing so will Lead to Legal Action and will land you into Jail. The code is made public for Hiring Managers/Clients/HRs and Noobs in JS. It is not public to let other earn form it.
 
-Links Disclaimer -
+**Links Disclaimer -**
+
 The Entire project uses Grabify Links to tract users done for identify purpose. The Data is not store by Lalit himsedf but Grabify does stores data about the users who clicks on any of the links. Please refer to their privacy policy of Grabify before using the live hosted links.
 
-Resources-
+**Resources -**
+
 The Learning of Jabascript is done in combination of 3 youtube channels- Thapa Technical, Tech Gun and one other channel. The chapter orders are listed below -
 
-1. From ch1 to ch8, the order of chapter is taken from thapa technical youtube channel.
-2. ch9 added from tech gun youtube channel.
+1. From ch1 to ch8, the order of chapter is taken from "thapa technical" youtube channel.
+2. ch9 added from "tech gun" youtube channel.
+3. Ch6 - for...of and for...in loop added from "Chai aur code" youtube channel.
+4. ch9 - array methods added from "Chai aur code" youtube channel.
