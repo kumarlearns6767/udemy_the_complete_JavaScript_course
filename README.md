@@ -1,7 +1,8 @@
 # thapatechnicalJavaScript_course
 
 **_ Disclaimer _**
-The site is broken after chapter 5 and will be fixed once Lalit finishes Javascript and Lands a job. So, please bear with the issues. You are invited to fix the issues, suggest new designs and contribute into the development process. Any help will be given back when this will be a product and monitized.
+
+The site is broken after chapter 5 and will be fixed once Lalit finishes Javascript and Lands a job. So, please bear with the issues. You are invited to fix the issues, suggest new designs and contribute into the development process. Any help required will be provided.
 
 Learning javascript using "The Complete JavaScript Course 2021: From Zero to Expert! from thapa technical youtube channel".
 Taking this course in 2023 and will update myself with latest ES feature, rules and other rquirements.
