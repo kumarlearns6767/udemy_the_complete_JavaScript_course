@@ -338,3 +338,24 @@ const after2015 = books.filter((item) => {
 });
 
 console.log(after2015);
+
+// Medium:
+
+// 3) Filter Books with a Certain Keyword in the Description:
+// Filter the books that have the word "JavaScript" in their description.
+
+// Answer -
+console.log("\n\n\n 1) Books that have Jacascript in their description = ");
+
+const keyword = "JavaScript";
+
+const booksWithJavaScript = books.filter((book) => {
+	// Convert both the description and the keyword to lowercase for case-insensitive comparison
+	const lowercasedDescription = book.description.toLowerCase();
+	const lowercasedKeyword = keyword.toLowerCase();
+
+	// Check if the lowercased description includes the lowercased keyword
+	return lowercasedDescription.includes(lowercasedKeyword);
+});
+
+console.log(booksWithJavaScript);
