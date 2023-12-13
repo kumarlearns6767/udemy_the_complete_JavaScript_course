@@ -36,7 +36,7 @@ The Entire project uses Grabify Links to tract users done for identify purpose. 
 
 **Resources -**
 
-The Learning of Jabascript is done in combination of 3 youtube channels- Thapa Technical, Tech Gun and one other channel. The chapter orders are listed below -
+The Learning of Javascript is done in combination of 3 youtube channels- Thapa Technical, Tech Gun and Chai aur Code youtube channels. The chapter orders are listed below -
 
 1. From ch1 to ch8, the order of chapter is taken from "thapa technical" youtube channel.
 2. ch9 added from "tech gun" youtube channel.
