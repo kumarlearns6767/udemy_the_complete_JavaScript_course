@@ -1,6 +1,6 @@
 @import url(https://fonts.bunny.net/css?family=source-sans-pro:200,300,400,600,700,900);
 
-@font-face {
+/* @font-face {
     font-family: 'SourceSansPro-Black';
     src: url("../assets/fonts/source-sans-pro/SourceSansPro-Black.otf");
 }
@@ -23,7 +23,7 @@
 @font-face {
     font-family: 'SourceSansPro-Regular';
     src: url("../assets/fonts/source-sans-pro/SourceSansPro-Regular.otf");
-}
+} */
 
 /* Imported Locally availabe fonts for backup. It will be used via js when the bunny font server is down */
 * {
@@ -53,10 +53,15 @@
     letter-spacing: 1px;
 }
 
+.search-container {
+    border: 3px white solid;
+}
+
 .search-barContainer {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid green;
 }
 
 #searchbar {
