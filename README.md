@@ -59,6 +59,7 @@ The Entire project uses Grabify Links to tract users done for identify purpose. 
 The Learning of Javascript is done in combination of 3 youtube channels- Thapa Technical, Tech Gun and Chai aur Code youtube channels. The chapter orders are listed below -
 
 1. From ch1 to ch8, the order of chapter is taken from "thapa technical" youtube channel.
-2. ch9 added from "tech gun" youtube channel.
-3. Ch6 - for...of and for...in loop added from "Chai aur code" youtube channel.
-4. ch9 - array methods added from "Chai aur code" youtube channel.
+2. ch5 contents is taken from tutorials point and thapa technical youtube channel combined.
+3. ch10 added from "tech gun" youtube channel.
+4. Ch7 - for...of and for...in loop added from "Chai aur code" youtube channel.
+5. ch10 - array methods added from "Chai aur code" youtube channel.
