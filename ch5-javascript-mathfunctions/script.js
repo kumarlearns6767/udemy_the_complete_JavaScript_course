@@ -1,117 +1,117 @@
 "use strict";
 
-// alert("Chapter 4 page is incomplete so please do not click \n on any of the program links as it may not work as expected. \n the Issue willbe fixed when lalit lands a job.");
-// Conditional statements in Javascript -
-// Javascript has if-else, if, if-elseif-else conditional statements. Let's understand them with examples-
+// alert(
+// 	" From here the Links are broken! \n \
+// Lalit was running out of time so he had to focus on learning and in pressure has to  \
+// leave the entire dovelepment of this projects which enables any type of begineers  \
+// to learn JavaScript without any issue. \
+// \n\n \
+// He aplogiges for this and request you to rely on script.js files. \
+// Once he sorts some issues, he will complete this project! "
+// );
 
-// if conditional statements in Javascript -
-let namee = "shyam";
+// *** taken from tutorial point ***
 
-if (namee === "shyam") console.log("The Name is " + namee);
+// Javascript Math Objects-
+// The math objects provides you properties and methods for mathematical constants and functions. Unlike other global objects, Math is not a constructor. All properties and methods of Math are static and can be called by using Math as an object without creating it.
 
-// if conditional statements in Javascript check weather the conidtion satisfies or not. If
-// that condition is valid then it executes the instruction written in it's block else it
-// does not execustes the instructions and moves on to the next code.
+// Thus, you refer to the constant pi as Math.PI and you call the sine function as Math.sin(x), where x is the method's argument.
 
-// if-else conditional statements in Javascript -
-let weather = "rain";
-if (weather == "rainy") {
-	console.log(`today's weather is ${weather}`);
-} else {
-	console.log(`today's weather is not rainy`);
-}
+// Syntax
+// The syntax to call the properties and methods of Math are as follows
 
-// Everything is same with if-else except one factor -
-// it executes the else block instead of moving to the next code when if condition does
-// not satiesfies.
+// var pi_val = Math.PI;
+// var sine_val = Math.sin(30);
 
-// if-elseif-else conditional statements in Javascript -
+// Math Properties
+// Here is a list of all the properties of Math and their description.
 
-const nam = "duckduck";
+// Sr.No.	Property & Description
+// 1	E \
+// Euler's constant and the base of natural logarithms, approximately 2.718.
 
-if (nam == "duckduck") {
-	console.log("Duckduck go is valid");
-} else if (nam == 12) {
-	console.log("today tempurature is 12 degree");
-} else if (nam == "15 sun") {
-	console.log("total 15 suns are there in milkyway");
-} else {
-	console.log("condition is not satisfied");
-}
-// in this statement, if the 1st condition is not valid then it goes to else if contions and if that if invalid then
-// it goes to next else if condition (if that is present) else if goes to else statement and
-// executes that block.
+// 2	LN2
+// Natural logarithm of 2, approximately 0.693.
 
-// What is truthy anf falsy values in Javascript?
-// answer: Values that are coerced into true are called truthy and values that are coerced into false are called falsy.
+// 3	LN10
+// Natural logarithm of 10, approximately 2.302.
 
-// Falsy values - 0, "", undefined, null, NaN, falsee** .
-// If any of the above falsy values are passed then it returns false.
+// 4	LOG2E
+// Base 2 logarithm of E, approximately 1.442.
 
-// --- MOST IMPORTANT ---
+// 5	LOG10E
+// Base 10 logarithm of E, approximately 0.434.
 
-// Ternary Operator (which i did not understand in Java).
-// The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark ( ? ),
-// then an expression to execute if the condition is truthy followed by a colon ( : ),
-// and finally the expression to execute if the condition is falsy.
+// 6	PI
+// Ratio of the circumference of a circle to its diameter, approximately 3.14159.
 
-// Example -
+// 7	SQRT1_2
+// Square root of 1/2; equivalently, 1 over the square root of 2, approximately 0.707.
 
-const re = "raju";
-console.log(re === "lila" ? "Invalid Input" : "Valid Input");
-// printing (write the condition) ? if true? then execute this block : else do this.
+// 8	SQRT2
+// Square root of 2, approximately 1.414.
 
-// switch case skipped for time limitations.
+// In the following sections, we will have a few examples to demonstrate the usage of Math properties.
 
-// ********* --------- Loops Starts --------- ***********
+// Math Methods
+// Here is a list of the methods associated with Math object and their description
 
-// *** While Loop ***
-// The while statement creates a loop that executes a specified statement as long as
-// the test condition evaluates to true.
-// The condition is evaluated before executing the statement.
+// Sr.No.	Method & Description
+// 1	abs()
+// Returns the absolute value of a number.
 
-// Example -
+// 2	acos()
+// Returns the arccosine (in radians) of a number.
 
-let digit = 0;
+// 3	asin()
+// Returns the arcsine (in radians) of a number.
 
-while (digit <= 10) {
-	console.log("number = " + digit);
-	digit++;
-}
+// 4	atan()
+// Returns the arctangent (in radians) of a number.
 
-console.log("\n\n");
+// 5	atan2()
+// Returns the arctangent of the quotient of its arguments.
 
-// *** Do While Loop ***
-// The do...while statement creates a loop that executes a 
-// specified statement until the test condition evaluates to false. 
-// The condition is evaluated after executing the statement, 
-//  in the specified statement executing at least once.
+// 6	ceil()
+// Returns the smallest integer greater than or equal to a number.
 
-// Example -
+// 7	cos()
+// Returns the cosine of a number.
 
-let digit2 = 0;
-// debugger;
-do {
-	console.log(`2number = ${digit2}`);
-	digit2++;
-} while (digit2 <= 10);
+// 8	exp()
+// Returns EN, where N is the argument, and E is Euler's constant, the base of the natural logarithm.
 
+// 9	floor()
+// Returns the largest integer less than or equal to a number.
 
-// *** for loop ***
-// A for loop repeats until a specified condition
-// evaluates to false. The JavaScript for loop is
-// similar to the Java and C for loop.
-// A for statement looks as follows: js Copy to
-// Clipboard for (initialization; condition;
-// afterthought) statement.
+// 10	log()
+// Returns the natural logarithm (base E) of a number.
 
-// Example -
-// Print the table of 8 using for loop - 
+// 11	max()
+// Returns the largest of zero or more numbers.
 
-let k;
-console.log(`\n Table of 8 =`);
-for (k = 0; k < 11; k++) {
-	let n = k * 8;
-	console.log(`8 x ${k} = ${n}`);
-	n++;
-}
+// 12	min()
+// Returns the smallest of zero or more numbers.
+
+// 13	pow()
+// Returns base to the exponent power, that is, base exponent.
+
+// 14	random()
+// Returns a pseudo-random number between 0 and 1.
+
+// 15	round()
+// Returns the value of a number rounded to the nearest integer.
+
+// 16	sin()
+// Returns the sine of a number.
+
+// 17	sqrt()
+// Returns the square root of a number.
+
+// 18	tan()
+// Returns the tangent of a number.
+
+// 19	toSource()
+// Returns the string "Math".
+
+// In the following sections, we will have a few examples to demonstrate the usage of the methods associated with Math.
