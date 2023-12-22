@@ -115,3 +115,36 @@
 // Returns the string "Math".
 
 // In the following sections, we will have a few examples to demonstrate the usage of the methods associated with Math.
+
+// Let's see some examples -
+
+// Finding the value of PI -
+
+let Pivalue = Math.PI;
+console.log(Pivalue); // we saw what is the value of PI.
+
+// Now, let's try to pass something inside PI() -
+
+// let Pivalue2 = Math.PI(13);
+// console.log(Pivalue2); this throws an error BECAUSE Math.PI is not a function.
+
+// Now, let's find round of any number -
+
+let number = 12.04474839;
+let num2 = 1.89373;
+let num3 = 12.5;
+console.log(` \n\n Round of ${number} = ${Math.round(number)}`);
+console.log(` Round of ${num2} = ${Math.round(num2)}`);
+console.log(` Round of ${num3} = ${Math.round(num3)}`);
+
+// Now, let's find power(outcome of how many times that number gets multiplied) any number -
+
+let n = 12;
+console.log(` \n\nPower of ${n} = ${Math.pow(n, 12)}`);
+console.log(`Power of ${n} using "**" operator= ${n ** 12}`);
+console.log("Both outputs the same result! ");
+
+// Now, let's find square root of any number -
+let n2 = 25;
+console.log(`\n\nSquare root of ${n2} = ${Math.sqrt(n2)}`);
+console.log(`Square root of ${45} = ${Math.sqrt(45)}`);
