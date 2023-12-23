@@ -148,3 +148,22 @@ console.log("Both outputs the same result! ");
 let n2 = 25;
 console.log(`\n\nSquare root of ${n2} = ${Math.sqrt(n2)}`);
 console.log(`Square root of ${45} = ${Math.sqrt(45)}`);
+
+// Now, let's find absolute (converts any -sign no to +sign no) of any number -
+console.log(`\n\nAbsolute of -56.34679 = ${Math.abs(-56.34679)}`);
+console.log(`Absolute of -58 = ${Math.abs(-58)}`);
+
+// *** Important ***
+// How to find maximum number using Math.max() method ?
+// We can easily find the maximum number using math function instead of using any loop and comparing the values. Example -
+
+let num = [12, -10, 11, 15, 16, -0.6, -30, -25.65, 35, 99];
+// console.log(`Maximum number in Array num = ${Math.max(num)}`);
+// the above code will return NaN because Math.max() does not accepts array. We need "..." spread operator to brink out the elements of the array outside of that array container and this will put dim directly  as single single element. example -
+
+console.log(`\n\nMaximum number in Array num = ${Math.max(...num)}`);
+// in the above code, all the elements of the array came of of [] the array and got applied firectly to the Math.max() method.
+
+// Finding the minimum number using math.min() method -
+
+console.log(`Maximum number in Array num = ${Math.min(...num)}`);
