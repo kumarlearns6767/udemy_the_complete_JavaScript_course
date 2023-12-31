@@ -1,0 +1,18 @@
+.dContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid red; */
+    margin: 3rem 2rem;
+    padding: 0.2rem;
+}
+
+.dContHeading {
+    border: 3px solid black;
+    padding: 0.3rem;
+    text-align: center;
+}
+
+.dContBody {
+    border: 3px solid black;
+    padding: 0.3rem;
+}
