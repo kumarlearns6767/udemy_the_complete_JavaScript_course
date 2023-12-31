@@ -16,6 +16,16 @@ const execute = () => {
 		console.log(window);
 	}, 2000);
 	// we see that there are multiple objects displayed in the console which says manythings about that specific window. We later use that information based on our requirements.
+
+	// In the above example, we retrived windows object but how we can retrive/pull out document object from windows? Well, here an example -
+
+	setTimeout(() => {
+		console.log(`\n${window.document}`);
+	}, 2099);
+	// The above example demostrates how document object can be retrived from windows object. It can also be done without writing "windows.".
+
+	// Let's understand HTML dom with the below diagram :
+	// please click on html dom image in this folder and see the image.
 };
 
 execute();
