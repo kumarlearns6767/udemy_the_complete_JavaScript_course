@@ -26,6 +26,24 @@ const execute = () => {
 
 	// Let's understand HTML dom with the below diagram :
 	// please click on html dom image in this folder and see the image.
+
+	// manupulating the DOM -
+
+	// 1) getElementById() -
+	//  The getElementById() method returns an element with a specified value. The getElementById() method returns null if the element does not exist. The getElementById() method is one of the most common methods in the HTML DOM. It is used almost every time you want to read or edit an HTML element.
+
+	// Example-
+	let sampleText2 = document.getElementById("sText2"); // selectedthe entire "sText2" id.
+
+	sampleText2.innerHTML = "replaced Text 2"; // replaced the text inside "sText2";
+
+	// 1) getElementByClassName() -
+	//  The getElementsByClassName method of Document interface returns an array-like object of all child elements which have all of the given class name(s). When called on the document object, the complete document is searched, including the root node.
+
+	// Example-
+	let sampleText3 = document.getElementsByClassName("sText3"); // selectedthe entire "sText3" id.
+
+	sampleText3.innerHTML = "replaced Text 3"; // replaced the text inside "sText3";
 };
 
 execute();
