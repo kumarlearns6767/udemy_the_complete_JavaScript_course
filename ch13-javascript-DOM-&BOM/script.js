@@ -37,13 +37,24 @@ const execute = () => {
 
 	sampleText2.innerHTML = "replaced Text 2"; // replaced the text inside "sText2";
 
-	// 1) getElementByClassName() -
+	// 2) getElementByClassName() -
 	//  The getElementsByClassName method of Document interface returns an array-like object of all child elements which have all of the given class name(s). When called on the document object, the complete document is searched, including the root node.
 
 	// Example-
-	let sampleText3 = document.getElementsByClassName("sText3"); // selectedthe entire "sText3" id.
+	let sampleText3 = document.getElementsByClassName("sText3")[0]; // selectedthe entire "sText3" id.
 
 	sampleText3.innerHTML = "replaced Text 3"; // replaced the text inside "sText3";
+
+	// 3) querySelector() -
+	// The Document method querySelector() returns the first Element within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned.
+
+	// Example-
+	let sampleText6 = document.querySelector("#sText6"); // selectedthe entire "sText6" id.
+
+	console.log(sampleText6);
+
+	sampleText6.innerHTML = "replaced Text 3"; // replaced the text inside "sText6";
+	sampleText6.style.color = "red";
 };
 
 execute();
