@@ -62,10 +62,42 @@ const execute = () => {
 	// The getElementsByName() method returns a collection of all elements in the document with the specified name (the value of the name attribute), as a NodeList object. The NodeList object represents a collection of nodes. The nodes can be accessed by index numbers. The index starts at 0.
 
 	// Example-
-	let sampleText7 = document.querySelector("#sText6"); // selectedthe entire "sText6" id.
+	let allRadioBtn = document.getElementsByName("subjects"); // selectedthe all the elements with name "subjects".
 
-	sampleText6.innerHTML = "replaced Text 3"; // replaced the text inside "sText6";
-	sampleText6.style.color = "red";
+	// console.log(allRadioBtn);
+
+	let checkedRadioBtn;
+	let byNameResult = document.getElementById("byNameResult"); // select the element with id "byNameResult"
+
+	for (let i = 0; i < allRadioBtn.length; i++) {
+		if (allRadioBtn[i].checked) {
+			checkedRadioBtn = allRadioBtn[i];
+			byNameResult.innerHTML = `The result is = ${checkedRadioBtn.value}`;
+			break; // Exit the loop once a checked radio button is found
+		}
+	}
+
+	// Creating Elements -
+
+	// 5) Creating element in JS file using createElement() method -
+	// In an HTML document, the document.createElement() method creates the HTML element specified by tagName, or an HTMLUnknownElement if tagName isn't recognized.
+
+	// Example -
+
+	let div = document.createElement("div");
+	div.innerHTML =
+		"<p> This element is Created and added by createElement() and appendChild() via Javascript</p>";
+	console.log(div); // the element is created by createElement() and printed in console but it is not added to HTML yet.
+
+	// Adding Elements ->
+
+	// Addig elements to HTML file using appendChild() method -
+	// The appendChild() method is used to add a new child element at the end of a parent element, along with this, the method can also be used to move an existing child element within the document from one parent element to another. Example 1-
+
+	document.getElementById("createElement").appendChild(div);
 };
 
 execute();
+
+// Note-
+// this chanter is incomplete because the author had a pressure to complete JavaScript ASAP and jump  into React.js. Once the author has landed a job then he can combe back and complete the chapter.
