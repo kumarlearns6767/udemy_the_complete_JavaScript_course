@@ -6,13 +6,157 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Javascript Dom Projects</title>
 		<link rel="stylesheet" href="../../style.css" />
-	</head>
-	<body>
-		This file is made to execute JS Dom Projects.
+		<style>
+			.margin1r {
+				margin: 1rem;
+			}
 
-		<script src="project1-colorChanger.js"></script>
-		<!-- <script src="project1-colorChanger.js"></script>
+			.headingBox {
+				margin: 0.5rem 0rem 0rem 0.5rem;
+				padding: 1rem;
+				width: 40rem;
+				height: 40px;
+				border: 1px solid grey;
+				border-radius: 5px;
+				font-size: 16px;
+			}
+
+			.refershPage {
+				height: 2.5rem;
+				width: 8rem;
+				border: none;
+				border-radius: 8px;
+				font-size: 16px;
+				background: rgb(78, 255, 47);
+				color: white;
+			}
+
+			.refershPage:hover {
+				transition: 0.2s ease;
+				transform: translatey(-10%);
+				font-weight: 800;
+			}
+
+			.refershPage:active {
+				transform: scale(0.98);
+				/* Scaling button to 0.98 to its original size */
+				box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+				/* Lowering the shadow */
+			}
+
+			.gridImageContainer {
+				border: 2px solid black;
+				margin: 1rem;
+				min-height: 40rem;
+				display: flex;
+			}
+
+			.imageContainer {
+				margin: 1rem;
+			}
+
+			img {
+				border-radius: 10px;
+				min-height: 100px;
+				width: 100px;
+				background-repeat: no-repeat;
+			}
+		</style>
+	</head>
+
+	<body>
+		<main class="containere">
+			<h1 class="margin1r">This file is made to execute JS Dom Projects.</h1>
+
+			<h2 class="margin1r">Project - 1</h2>
+			<div class="margin1r">
+				<h3>
+					Below is a dyanamic Heading which you can change using the box below -
+				</h3>
+				<br />
+				<h3 id="dynamicHead">This is a dynamic heading.</h3>
+				<input
+					type="text"
+					placeholder="Please Enter a text to change the heading."
+					name="inputBox"
+					id="headingBox"
+					class="headingBox"
+					onkeydown="changeHeading()" />
+				<!-- onkeydown event used to detect key unpress (means when user releases it's finger from a key) -->
+			</div>
+
+			<button
+				class="refershPage margin1r"
+				id="refreshPage()"
+				onclick="refreshPage()">
+				Refresh Page
+			</button>
+
+			<br />
+			<br />
+
+			<h2 class="margin1r">Project - 2</h2>
+
+			<h3 class="margin1r">Responsive Image Grid.</h3>
+
+			<div class="gridImageContainer">
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+
+				<figure class="imageContainer">
+					<img src="./project2/images/1.jpg" alt="first image" />
+				</figure>
+			</div>
+
+			<script src="./project1/project1-dynamicTitle.js"></script>
+			<!-- <script src="project1-colorChanger.js"></script>
         <script src="project1-colorChanger.js"></script>
         <script src="project1-colorChanger.js"></script> -->
+		</main>
 	</body>
 </html>
