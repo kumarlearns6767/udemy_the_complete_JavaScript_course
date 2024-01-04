@@ -47,19 +47,32 @@
 			.gridImageContainer {
 				border: 2px solid black;
 				margin: 1rem;
-				min-height: 40rem;
-				display: flex;
+				min-height: 60rem;
+				display: grid;
+				grid-template-columns: repeat(
+					auto-fit,
+					minmax(25%, 1fr)
+				); /* Adjust for desired widths */
+				grid-gap: 1rem; /* Adjust spacing between images */
 			}
 
 			.imageContainer {
 				margin: 1rem;
+				align-items: center;
 			}
 
 			img {
 				border-radius: 10px;
-				min-height: 100px;
-				width: 100px;
+				width: 100%;
+				height: 100%;
 				background-repeat: no-repeat;
+				object-fit: fill;
+			}
+			@media (max-width: 768px) {
+				/* Adjust breakpoint as needed */
+				.imageContainer {
+					flex-basis: 33.33%; /* 3 images per row on smaller screens */
+				}
 			}
 		</style>
 	</head>
@@ -105,51 +118,51 @@
 				</figure>
 
 				<figure class="imageContainer">
-					<img src="./project2/images/1.jpg" alt="first image" />
+					<img src="./project2/images/2.jpg" alt="first image" />
 				</figure>
 
 				<figure class="imageContainer">
-					<img src="./project2/images/1.jpg" alt="first image" />
+					<img src="./project2/images/3.jpg" alt="first image" />
 				</figure>
 
 				<figure class="imageContainer">
-					<img src="./project2/images/1.jpg" alt="first image" />
+					<img src="./project2/images/4.jpg" alt="first image" />
 				</figure>
 
 				<figure class="imageContainer">
-					<img src="./project2/images/1.jpg" alt="first image" />
+					<img src="./project2/images/5.jpg" alt="first image" />
 				</figure>
 
 				<figure class="imageContainer">
-					<img src="./project2/images/1.jpg" alt="first image" />
+					<img src="./project2/images/6.jpg" alt="first image" />
 				</figure>
 
 				<figure class="imageContainer">
-					<img src="./project2/images/1.jpg" alt="first image" />
+					<img src="./project2/images/7.jpg" alt="first image" />
 				</figure>
 
 				<figure class="imageContainer">
-					<img src="./project2/images/1.jpg" alt="first image" />
+					<img src="./project2/images/8.jpg" alt="first image" />
 				</figure>
 
 				<figure class="imageContainer">
-					<img src="./project2/images/1.jpg" alt="first image" />
+					<img src="./project2/images/9.jpg" alt="first image" />
 				</figure>
 
 				<figure class="imageContainer">
-					<img src="./project2/images/1.jpg" alt="first image" />
+					<img src="./project2/images/10.jpg" alt="first image" />
 				</figure>
 
 				<figure class="imageContainer">
-					<img src="./project2/images/1.jpg" alt="first image" />
+					<img src="./project2/images/11.jpg" alt="first image" />
 				</figure>
 
 				<figure class="imageContainer">
-					<img src="./project2/images/1.jpg" alt="first image" />
+					<img src="./project2/images/12.jpg" alt="first image" />
 				</figure>
 
 				<figure class="imageContainer">
-					<img src="./project2/images/1.jpg" alt="first image" />
+					<img src="./project2/images/13.jpg" alt="first image" />
 				</figure>
 			</div>
 
