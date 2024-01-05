@@ -31,7 +31,6 @@
 
 					<br />
 					<br />
-					<br />
 
 					<h4>Method 1 - By calling inline HTML events -</h4>
 
@@ -52,12 +51,32 @@
 					<br />
 					<br />
 
-					<h4>Method 3 - By calling function in html attribute -</h4>
+					<h4>
+						Method 3 - Selecting via html id, attaching event "onclick" and then
+						calling a function -
+					</h4>
 
 					<button id="method3">
-						click me to call trigger event which is called via html id
+						click me to trigger event which is called via html id
 					</button>
 
+					<br />
+					<br />
+
+					<h4>Method 4 - By using event listner -</h4>
+
+					<button id="method4">
+						click me to call event function listner via html id
+					</button>
+					<br />
+					<br />
+					<br />
+
+					<h3>Event Bubbling/Propogation Demo -</h3>
+
+					<button id="method5">
+						click me to see event bubbling/propogation in developer console.
+					</button>
 					<br />
 					<br />
 				</div>
