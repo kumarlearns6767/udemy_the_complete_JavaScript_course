@@ -87,7 +87,7 @@ method4id.addEventListener(
 // Event Propogation / Bubbling (very immportant) -
 // Event Propogation / Bubbling means that when the element is clicked then the events present on that element including any parent element's elements are executed in inner to outher format. Which means the child element's event will trigger first then the parent's avant will trigger. Example -
 
-document.querySelector("#method5").addEventListener(
+document.querySelector("#eventBubble").addEventListener(
 	"click",
 	() => {
 		console.log(" This is inner element's event triggered");
@@ -103,3 +103,22 @@ document.querySelector("#dContBody").addEventListener(
 	false
 );
 // this is the demo of inner to outer execution which is event propogation.
+
+// Demo of stopping the above event propagation -
+
+document.querySelector("#stopPropagation").addEventListener(
+	"click",
+	(e) => {
+		console.log(" This is inner element's event triggered");
+		e.stopPropagation(); // we stopped event propogation here.
+	},
+	false
+);
+
+document.querySelector(".dContainer").addEventListener(
+	"click",
+	(e) => {
+		console.log(" This is parent element's event triggered");
+	},
+	false
+);
