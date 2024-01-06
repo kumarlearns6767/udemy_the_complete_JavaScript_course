@@ -95,7 +95,7 @@ document.querySelector("#eventBubble").addEventListener(
 	false
 );
 
-document.querySelector("#dContBody").addEventListener(
+document.querySelector(".stopBubblingContainer").addEventListener(
 	"click",
 	() => {
 		console.log(" This is parent element's event triggered");
@@ -115,10 +115,20 @@ document.querySelector("#stopPropagation").addEventListener(
 	false
 );
 
-document.querySelector(".dContainer").addEventListener(
+document.querySelector(".stopBubblingContainer2").addEventListener(
 	"click",
 	(e) => {
 		console.log(" This is parent element's event triggered");
+	},
+	false
+);
+
+// Removing Elements using better approach (not by genral id  targeting and removing element directly) because general approach is not suitable for large applications. -
+
+document.querySelector("#imageContainer").addEventListener(
+	"click",
+	function (e) {
+		console.log(e); // to detect event is capted or not.
 	},
 	false
 );
