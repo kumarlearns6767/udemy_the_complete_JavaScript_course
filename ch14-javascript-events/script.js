@@ -123,7 +123,8 @@ document.querySelector(".stopBubblingContainer2").addEventListener(
 	false
 );
 
-// Removing Elements using better approach (not by genral id  targeting and removing element directly) because general approach is not suitable for large applications. -
+// Removing Element on click event -
+// When we want to remove element when a click event is detected we can use the normal ID/Class method but this is not ideal when we have many images (more than 20). So, we are using a better approach below -
 
 document.querySelector("#imageContainer").addEventListener(
 	"click",
