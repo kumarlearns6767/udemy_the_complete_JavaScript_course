@@ -78,7 +78,8 @@ method4id.addEventListener(
 
 // Method 4 is the ideal method as it come with more functionality and is suitable for sca;able applications amde in pure / vanilla javascript.
 
-// We need to lean the following onjects return by addEventListener() when a event is triggered -
+// ****** Taken from Chai ur Code YouTube Channel ******
+// We need to learn the following onbects return by addEventListener() when a event is triggered -
 // type, timestamp, defaultPrevented,
 // target, toElement, srcRlement (very immportant), currentTarget,
 // clientX, clientY, screenY,
@@ -126,10 +127,47 @@ document.querySelector(".stopBubblingContainer2").addEventListener(
 // Removing Element on click event -
 // When we want to remove element when a click event is detected we can use the normal ID/Class method but this is not ideal when we have many images (more than 20). So, we are using a better approach below -
 
+// Removing a single image when they are clicked -
 document.querySelector("#imageContainer").addEventListener(
 	"click",
-	function (e) {
-		console.log(e); // to detect event is capted or not.
+	(event) => {
+		console.log(`Captured Event = ${event}`);
+		console.log(`Event's target = ${event.target}`);
+		if (event.target.tagName == "IMG") {
+			console.log(event.target.id);
+			let liParentElement = event.target.parentNode;
+			liParentElement.remove(); // new  method (not common)
+			// liParentElement.parentNode.removeChild(liParentElement); // old method (common)
+		} // if condition is added to prevent entire list item from deleting which is a unexpected bug.
 	},
 	false
 );
+
+// Removing all the images with delete all button -
+document.querySelector("#deletebtn").addEventListener("click", () => {
+	const imageContainer = document.querySelector("#imageContainer");
+	const images = imageContainer.querySelectorAll("img");
+
+	images.forEach((image) => {
+		image.parentElement.remove(); // Remove the entire <li> element containing the image
+	});
+});
+
+// Removing single image with delete button -
+
+document.querySelector("#imageContainer2").addEventListener(
+	"click",
+	(event) => {
+		console.log(event.target); // to displat from which target the event is occouring.
+		console.log(event.target.parentNode); // to display the parent element of the evented target.
+		const removeElement = event.target.parentNode; // Find the closest <li> ancestor
+		removeElement.remove(); // Remove the entire <li> element
+	},
+	false
+);
+
+// ****** Returned to Thapa Technical Youtube Channel ******
+
+// Event Object -
+// What is Event Object?
+// Event objects are small details which are used to gather information about that event.
