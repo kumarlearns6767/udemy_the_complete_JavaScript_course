@@ -1,12 +1,12 @@
 # thapatechnicalJavaScript_course
 
-**_ Disclaimer _**
+**/ Disclaimer /**
 
-The site is broken after chapter 5 and will be fixed once Lalit finishes Javascript and Lands a job. So, please bear with the issues. You are invited to fix the issues, suggest new designs and contribute into the development process. Any help required will be provided.
+The site is broken after chapter 5 and will be fixed once Lalit finishes Javascript and Lands a job. So, I aplogize for the issues. If you are interested to fix the issues then you are invited to fix the issues, suggest improvements or improve the problems by applying it and raising a PR, suggest new UI designs or related and contribute into the development of this project so that Begineers can learn Javascript very Easily and other poeple can consider this as a proof of my javascriot knowledge and your's too. Any contribution will be appreciated anf if possible then will it be Rewarded also, if any help required to contribute to this project will be provided. To Contribute, Please GoTo the "Issues" Tab and pickup any issue based on your skill Level. Additionlly, you can check the code for any  type of issues (be it syntax/logical/spelling mistake etc.) and raise that issue in the "Issues tab". Please contact reachkumarlalit89@gmail.com for any questions/help/interest related to this project. Briefly explain what you want to do so that I can assist accordingly.
 
 **Copyright Information -**
 
-Though the Source Code is Open and you are allowed to download it for Learning Purpose but, you are not allowed to modify the code, reuse the code for your own benifit and build some thing which can returrn you money or start a SaaS Product using this Project. Doing so will Lead to Legal Action and will land you into Jail. The code is made public for Hiring Managers/Clients/HRs and Noobs in JS. It is not public to let other earn form it.
+Though the Source Code is OPENLLY because my intension is to let beginner learn javascript without any problems also, let non technical people show "that I have proper javascript knowledge and this project is the proof" that's why **you are allowed to clone/download/misuse this Project for any Purpose but also, you are not allowed to modify the code, reuse the code for your own benifit and build some thing which can return you money or start a SaaS Product (or anything related) using this Project.** Doing so will Lead to Legal Action against you and you have the face the consequences. This project is not made public to let other earn form it. Please respect this decision and do not missue this project.
 
 **Information**
 
