@@ -27,7 +27,7 @@ Now, the aim of this project is twofold. Firstly, it serves as tangible proof of
 
 Moreover, it provides a unique and interactive learning experience through projects organized by chapters. As the project evolves, the goal is to transform it into a recognizable brand. This transformation includes generating revenue, enabling active contributors to receive rewards and monetary prizes. In some instances, the project may even lead to hiring dedicated individuals who share a commitment to its success.
 
-**Information**
+**/ Information /**
 
 Learning javascript using "The Complete JavaScript Course 2021: From Zero to Expert! from thapa technical youtube channel".
 Taking this course in 2023 and will update myself with latest ES feature, rules and other rquirements.
@@ -35,7 +35,7 @@ Taking this course in 2023 and will update myself with latest ES feature, rules 
 Live Hosted Link to checkout - https://lalitkumarthakur.github.io/thapatechnicalJavaScript_course/index.html
 source code - https://github.com/lalitkumarthakur/thapatechnicalJavaScript_course/
 
-**How to take up this course ?**
+**/ How to take up this course ? /**
 
 1) Visit this youtube link (no trackers installed) - https://www.youtube.com/watch?v=KGkiIBTq0y0&t=29805s (video is in hindi). For english audience, Please visit this youtube channel - https://www.youtube.com/watch?v=2md4HQNRqJA&list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD (by any chance if the contents and chapter syllabus does not match then you can find a different youtube video and follow this repo's .js files to understand the concept). 
 
@@ -65,15 +65,15 @@ How to download this project in your Local Computer and run it ?
 
 6) Follow along the videos chapter wise then come back to script.js of that chapter (ex- ch9 ) and practise what you understood  and continue the process.
 
-**How do I raise a PR?**
+**/ How do I raise a PR? /**
 
 Please create a different branch in your computer when not fixing a issue and working on a diffenet thing (like new topic) and raise a PR but when working on "Issuses" then please switch to "correct-v2 branch" and raise a PR.
 
-**Links Disclaimer -**
+**/ Links Disclaimer - /**
 
 The Entire project uses Grabify Links to tract users done for identify purpose. The Data is not store by Lalit himsedf but Grabify does stores data about the users who clicks on any of the links. Please refer to their privacy policy of Grabify before using the live hosted links.
 
-**Resources -**
+**/ Resources - /**
 
 The Learning of Javascript is done in combination of 3 youtube channels- Thapa Technical, Tech Gun and Chai aur Code youtube channels. The chapter orders are listed below -
 
