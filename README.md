@@ -1,4 +1,4 @@
-# thapatechnicalJavaScript_course
+# Javascript Course by Lalit.
 
 **/ Disclaimer /**
 
