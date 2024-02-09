@@ -2,11 +2,30 @@
 
 **/ Disclaimer /**
 
-The site is broken after chapter 5 and will be fixed once Lalit finishes Javascript and Lands a job. So, I aplogize for the issues. If you are interested to fix the issues then you are invited to fix the issues, suggest improvements or improve the problems by applying it and raising a PR, suggest new UI designs or related and contribute into the development of this project so that Begineers can learn Javascript very Easily and other poeple can consider this as a proof of my javascriot knowledge and your's too. Any contribution will be appreciated anf if possible then will it be Rewarded also, if any help required to contribute to this project will be provided. To Contribute, Please GoTo the "Issues" Tab and pickup any issue based on your skill Level. Additionlly, you can check the code for any  type of issues (be it syntax/logical/spelling mistake etc.) and raise that issue in the "Issues tab". Please contact reachkumarlalit89@gmail.com for any questions/help/interest related to this project. Briefly explain what you want to do so that I can assist accordingly.
+The website may experience issues after Chapter 5, and I apologize for any inconvenience. Once Lalit completes learning JavaScript and secures a job, the site will be fixed. If you're interested in resolving the issues, suggesting improvements, or contributing to the development of the project, you're welcome to do so. Feel free to fix problems, propose new UI designs, or address any issues by raising a PR.
+
+Your contributions will be highly appreciated, and if possible, there may be rewards. If you need assistance, guidance, or have any questions related to the project, please go to the "Issues" tab, pick an issue based on your skill level, or check the code for any issues (syntax, logic, spelling mistakes, etc.) and raise them in the "Issues" tab. For further inquiries or expressing your interest in contributing, contact reachkumarlalit89@gmail.com. Briefly explain your intentions so that I can assist you accordingly
 
 **Copyright Information -**
 
-Though the Source Code is OPENLLY because my intension is to let beginner learn javascript without any problems also, let non technical people show "that I have proper javascript knowledge and this project is the proof" that's why **you are allowed to clone/download/misuse this Project for any Purpose but also, you are not allowed to modify the code, reuse the code for your own benifit and build some thing which can return you money or start a SaaS Product (or anything related) using this Project.** Doing so will Lead to Legal Action against you and you have the face the consequences. This project is not made public to let other earn form it. Please respect this decision and do not missue this project.
+**The source code of this project is openly available because my intention is to facilitate beginners in learning JavaScript without any difficulties. It also serves as proof of my proficiency in JavaScript for non-technical individuals. You are allowed to download this project for learning purposes. However, it is essential to note that you are not permitted to misuse, modify, download, steal, or engage in any similar activities with the code. Furthermore, you are not allowed to reuse the code for personal gain, such as building something that generates income or starting a SaaS product using this project.**
+
+**Any violation of these terms will result in legal action, and you will be held accountable for the consequences. This project is not made public with the intention of enabling others to profit from it. I kindly request that you respect this decision and refrain from misusing the project.**
+
+
+**Motive/Goal of this Project/Repo -**
+
+Beginners often find themselves following multiple sources simultaneously when learning JavaScript. This can lead to confusion, making their learning journey less effective and leaving them dissatisfied. Many people even give up on learning JavaScript because of these challenges.
+
+In India, there is a book published by APC (Arya Publishing Company) specifically dedicated to Java. This book offers a well-organized and beginner-friendly approach with a systematic syllabus that covers everything you need to know. Personally, I haven't come across any other resource or video that is as organized.
+
+Recognizing the major problem of disorganized information, I decided to tackle it head-on. I created a project to address this core issue by structuring all the topics into chapters. Additionally, I provide detailed explanations in my personal notes, making it easier for developers of all skill levels, including non-developers, to learn JavaScript without any hassle.
+
+Although it may seem simple, disorganized information is a significant problem. I, myself, used to follow three different YouTube channels to understand the same topic, which raised concerns for me which resulted this Project.
+
+Now, the aim of this project is twofold. Firstly, it serves as tangible proof of my proficiency in JavaScript. Secondly, it is designed to assist beginners and non-tech individuals in easily learning JavaScript. Additionally, the project aims to showcase my JavaScript expertise to prospective clients, HR managers, and companies.
+
+Moreover, it provides a unique and interactive learning experience through projects organized by chapters. As the project evolves, the goal is to transform it into a recognizable brand. This transformation includes generating revenue, enabling active contributors to receive rewards and monetary prizes. In some instances, the project may even lead to hiring dedicated individuals who share a commitment to its success.
 
 **Information**
 
