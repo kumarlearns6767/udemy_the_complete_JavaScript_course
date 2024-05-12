@@ -1,5 +1,9 @@
 # Javascript Course by Lalit.
 
+**/ Important Notice /**
+I am on medical emergency break which resulted in no commits on my github from a long time. I might not continue working for a long time which definitely affects develoment and progress of this
+ project. I aplogize for not being consistent and pausing this and many other projects for few months. Please stydly this project and contunue solving bugs, finding them, filing bugs and development of this project. Any efforts will be appreciated! 
+
 **/ Disclaimer /**
 
 The website may experience issues after Chapter 5, and I apologize for any inconvenience. Once Lalit completes learning JavaScript and secures a job, the site will be fixed. If you're interested in resolving the issues, suggesting improvements, or contributing to the development of the project, you're welcome to do so. Feel free to fix problems, propose new UI designs, or address any issues by raising a PR.
