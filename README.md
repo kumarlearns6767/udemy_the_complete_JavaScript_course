@@ -1,6 +1,8 @@
 # Javascript Course by Lalit.
 
 **/ Important Notice /**
+
+
 I am on medical emergency break which resulted in no commits on my github from a long time. I might not continue working for a long time which definitely affects develoment and progress of this
  project. I aplogize for not being consistent and pausing this and many other projects for few months. Please stydly this project and contunue solving bugs, finding them, filing bugs and development of this project. Any efforts will be appreciated! 
 
