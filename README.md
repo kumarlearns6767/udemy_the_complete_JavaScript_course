@@ -4,7 +4,7 @@
 
 
 I am on medical emergency break which resulted in no commits on my github from a long time. I might not continue working for a long time which definitely affects develoment and progress of this
- project. I aplogize for not being consistent and pausing this and many other projects for few months. Please stydly this project and contunue solving bugs, finding them, filing bugs and development of this project. Any efforts will be appreciated! 
+ project. I aplogize for not being consistent and pausing this and many other projects for few months. Please study this project and contunue solving bugs, finding bugs/issues, filing/reporting bugs/issues, proposing new featires/recommendations for development of this project. Any efforts will be appreciated! If you like my work please email me here reachkumarlalit89@gmail.com to Contribute money as donations or you can subscribe on monthly / yearly basis to keep this project alive and also if you find it beneficial.
 
 **/ Disclaimer /**
 
