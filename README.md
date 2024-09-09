@@ -38,8 +38,7 @@ Moreover, it provides a unique and interactive learning experience through proje
 Learning javascript using "The Complete JavaScript Course 2021: From Zero to Expert! from thapa technical youtube channel".
 Taking this course in 2023 and will update myself with latest ES feature, rules and other rquirements.
 
-Live Hosted Link to checkout - https://lalitkumarthakur.github.io/thapatechnicalJavaScript_course/index.html
-source code - https://github.com/lalitkumarthakur/thapatechnicalJavaScript_course/
+Live Hosted Link to checkout - https://lalitkumarthakur.github.io/javaScriptcoursebylalit/
 
 **/ How to take up this course ? /**
 
