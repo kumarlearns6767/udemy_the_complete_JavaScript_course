@@ -77,7 +77,6 @@ console.log(`Type of newType2 = ${typeof (newType2)}`);
 // Number() Function is same as others so not doing any demo.
 
 
-<<<<<<< HEAD
 
 // What is Type Conversion in Javascript?
 
@@ -135,5 +134,3 @@ console.log(`Type of newType2 = ${typeof (newType2)}`);
 
 // It is generally best to use typeof as a function with parentheses, unless you have a specific reason to do otherwise. This will help to improve the readability and maintainability of your code.
 
-=======
->>>>>>> 0fa1b7de403e681af2743d9660a32ec317ec7e46
