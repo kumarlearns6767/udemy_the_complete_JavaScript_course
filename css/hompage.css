@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     /* scroll-behavior: smooth; */
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -24,13 +24,14 @@ a {
 }
 
 .chapter1-btn {
-    padding: 1rem 1.9rem;
-    margin: 0.5rem 0.5rem 1.6rem 0.5rem;
-    font-size: 18px;
+    margin: 0 0 0 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
     color: white;
     background: blue;
-    border: none;
-    border-radius: 10px;
 }
 
 .chapter1-btn:hover {
