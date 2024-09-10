@@ -14,7 +14,7 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 /* --- Global CSS --- */
@@ -32,12 +32,12 @@ a {
 
 .body-container {
     /* min-height: 100vh; */
-    padding: 1rem 0rem;
+    padding: 1rem;
     background: linear-gradient(90deg, rgba(37, 138, 252, 0.100) 27.64%, rgba(136, 91, 255, 0.100) 43.42%, rgba(213, 23, 247, 0.100) 58.83%, rgba(246, 173, 109, 0.100) 81.81%);
 }
 
 .chapter-heading {
-    font-size: 40px;
+    font-size: 2.1rem;
     margin-bottom: 1rem;
 }
 
