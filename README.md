@@ -49,6 +49,8 @@ How to download this project in your Local Computer and run it ?
 
 6) Follow along the videos chapter wise then come back to script.js of that chapter (ex- ch9 ) and practise what you understood  and continue the process.
 
+7) To see live preview click here - https://lalitkumarthakur.github.io/javascripthelpbylalit/
+
 
 **/ How canI start working/contributing on this project? /**
 
