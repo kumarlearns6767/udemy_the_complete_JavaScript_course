@@ -71,8 +71,9 @@ Please create a different branch in your computer when not fixing a issue and wo
 
 The Entire project uses Grabify Links to tract users done for identify purpose. The Data is not store by Lalit himsedf but Grabify does stores data about the users who clicks on any of the links. Please refer to their privacy policy of Grabify before using the live hosted links.
 
-**/ Information /**
-Your contributions will be highly appreciated, and if possible, there may be rewards. If you need assistance, guidance, or have any questions related to the project, please email me on reachlalitkumar89@gmail.com. To solve issues based on your skill level/do open source contribution, please go to the "Issues" tab, pick an issue based on your skill level, or check the code for any issues (syntax, logic, spelling mistakes, etc.) and raise them in the "Issues" tab. For further inquiries or expressing your interest in contributing, contact reachkumarlalit89@gmail.com. Briefly explain your intentions so that I can assist you accordingly.
+**/ Information- /**
+
+Your contributions are be highly appreciated and helpful for everyone, and if possible, there might be rewards given to you in future. If you need assistance, guidance, or have any questions related to the project, please email me on reachlalitkumar89@gmail.com. To solve issues based on your skill level/do open source contribution, please go to the "Issues" tab, pick an issue based on your skill level, or check the code for any issues (syntax, logic, spelling mistakes, etc.) and raise them in the "Issues" tab. For further inquiries or expressing your interest in contributing, contact reachkumarlalit89@gmail.com. Briefly explain your intentions so that I can assist you accordingly.
 
 
 **/ Resources - /**
