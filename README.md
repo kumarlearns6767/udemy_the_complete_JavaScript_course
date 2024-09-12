@@ -1,29 +1,15 @@
 # Javascript Course by Lalit.
 
-**/ Important Notice /**
-
-
-I am on medical emergency break which resulted in no commits on my github from a long time. I might not continue working for a long time which definitely affects develoment and progress of this
- project. I aplogize for not being consistent and pausing this and many other projects for few months. Please study this project and contunue solving bugs, finding bugs/issues, filing/reporting bugs/issues, proposing new featires/recommendations for development of this project. Any efforts will be appreciated! If you like my work please email me here reachkumarlalit89@gmail.com to Contribute money as donations or you can subscribe on monthly / yearly basis to keep this project alive and also if you find it beneficial.
-
-**/ Disclaimer /**
-
-The website may experience issues after Chapter 5, and I apologize for any inconvenience. Once Lalit completes learning JavaScript and secures a job, the site will be fixed. If you're interested in resolving the issues, suggesting improvements, or contributing to the development of the project, you're welcome to do so. Feel free to fix problems, propose new UI designs, or address any issues by raising a PR.
-
-Your contributions will be highly appreciated, and if possible, there may be rewards. If you need assistance, guidance, or have any questions related to the project, please go to the "Issues" tab, pick an issue based on your skill level, or check the code for any issues (syntax, logic, spelling mistakes, etc.) and raise them in the "Issues" tab. For further inquiries or expressing your interest in contributing, contact reachkumarlalit89@gmail.com. Briefly explain your intentions so that I can assist you accordingly
-
 **Copyright Information -**
 
-**The source code of this project is openly available because my intention is to facilitate beginners in learning JavaScript without any difficulties. It also serves as proof of my proficiency in JavaScript for non-technical individuals. You are allowed to download this project for learning purposes. However, it is essential to note that you are not permitted to misuse, modify, download, steal, or engage in any similar activities with the code. Furthermore, you are not allowed to reuse the code for personal gain, such as building something that generates income or starting a SaaS product using this project.**
+**The source code of this project is openly available because my intention is to facilitate beginners in learning JavaScript without any difficulties. It also serves as proof of my proficiency in JavaScript for non-technical individuals. You are allowed to download this project for learning purposes. However, it is essential to note that you are not permitted to misuse, modify, download, steal, or engage in any similar activities with the code. Furthermore, you are not allowed to reuse the code for personal gain, such as building something that generates income or starting a SaaS product using this project. or anything similar!**
 
-**Any violation of these terms will result in legal action, and you will be held accountable for the consequences. This project is not made public with the intention of enabling others to profit from it. I kindly request that you respect this decision and refrain from misusing the project.**
+**Any violation of these terms will result in legal action against you!, and you will be held accountable for the consequences. This project is not made public with the intention of enabling others to profit from it. I kindly request that you respect this decision and refrain from misusing the project.**
 
 
 **Motive/Goal of this Project/Repo -**
 
 Beginners often find themselves following multiple sources simultaneously when learning JavaScript. This can lead to confusion, making their learning journey less effective and leaving them dissatisfied. Many people even give up on learning JavaScript because of these challenges.
-
-In India, there is a book published by APC (Arya Publishing Company) specifically dedicated to Java. This book offers a well-organized and beginner-friendly approach with a systematic syllabus that covers everything you need to know. Personally, I haven't come across any other resource or video that is as organized.
 
 Recognizing the major problem of disorganized information, I decided to tackle it head-on. I created a project to address this core issue by structuring all the topics into chapters. Additionally, I provide detailed explanations in my personal notes, making it easier for developers of all skill levels, including non-developers, to learn JavaScript without any hassle.
 
@@ -32,13 +18,6 @@ Although it may seem simple, disorganized information is a significant problem. 
 Now, the aim of this project is twofold. Firstly, it serves as tangible proof of my proficiency in JavaScript. Secondly, it is designed to assist beginners and non-tech individuals in easily learning JavaScript. Additionally, the project aims to showcase my JavaScript expertise to prospective clients, HR managers, and companies.
 
 Moreover, it provides a unique and interactive learning experience through projects organized by chapters. As the project evolves, the goal is to transform it into a recognizable brand. This transformation includes generating revenue, enabling active contributors to receive rewards and monetary prizes. In some instances, the project may even lead to hiring dedicated individuals who share a commitment to its success.
-
-**/ Information /**
-
-Learning javascript using "The Complete JavaScript Course 2021: From Zero to Expert! from thapa technical youtube channel".
-Taking this course in 2023 and will update myself with latest ES feature, rules and other rquirements.
-
-Live Hosted Link to checkout - https://lalitkumarthakur.github.io/javaScriptcoursebylalit/
 
 **/ How to take up this course ? /**
 
@@ -77,6 +56,10 @@ Please create a different branch in your computer when not fixing a issue and wo
 **/ Links Disclaimer - /**
 
 The Entire project uses Grabify Links to tract users done for identify purpose. The Data is not store by Lalit himsedf but Grabify does stores data about the users who clicks on any of the links. Please refer to their privacy policy of Grabify before using the live hosted links.
+
+**/ Information /**
+Your contributions will be highly appreciated, and if possible, there may be rewards. If you need assistance, guidance, or have any questions related to the project, please email me on reachlalitkumar89@gmail.com. To solve issues based on your skill level/do open source contribution, please go to the "Issues" tab, pick an issue based on your skill level, or check the code for any issues (syntax, logic, spelling mistakes, etc.) and raise them in the "Issues" tab. For further inquiries or expressing your interest in contributing, contact reachkumarlalit89@gmail.com. Briefly explain your intentions so that I can assist you accordingly.
+
 
 **/ Resources - /**
 
