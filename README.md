@@ -49,9 +49,20 @@ How to download this project in your Local Computer and run it ?
 
 6) Follow along the videos chapter wise then come back to script.js of that chapter (ex- ch9 ) and practise what you understood  and continue the process.
 
-**/ How do I raise a PR? /**
 
-Please create a different branch in your computer when not fixing a issue and working on a diffenet thing (like new topic) and raise a PR but when working on "Issuses" then please switch to "correct-v2 branch" and raise a PR.
+**/ How canI start working/contributing on this project? /**
+
+Please check the steps below to start working on this project- 
+
+> Follow the steps listed above "How to take up this course ?" to download this project in your local computer then,
+> Start the  "Live server" (steps given above) to see the project running in your local computer,
+> Now select a chapter on which you want to work/contribute and switch to that branch (example - if you want to work on arrays then switch to "array" branch via "git checkout array" command in terminal.
+> After commpleting please raise a PR from your current branch to "testing" branch. (Don't try to raise a PR to "prod" as that is live production branch !!! Changes will be pushed to "prod" after proper testing.
+
+
+ **/ How do I raise a PR? /**
+
+Please create a different branch in your computer when not fixing a issue and working on a diffenet thing (like new topic) {example - if working on a new chapter Promises then create a branch named "promises"} and raise a PR but when working on "Issuses" then please switch to "correction" branch and raise a PR to "testing" branch.
 
 **/ Links Disclaimer - /**
 
